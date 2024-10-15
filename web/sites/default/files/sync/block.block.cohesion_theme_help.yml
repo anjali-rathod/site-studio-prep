@@ -1,0 +1,22 @@
+uuid: e1a53b26-9d7e-4f83-ab4f-83c0be8c4389
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - cohesion_theme
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: cohesion_theme_help
+theme: cohesion_theme
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

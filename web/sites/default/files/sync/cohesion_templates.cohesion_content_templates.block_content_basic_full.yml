@@ -1,0 +1,18 @@
+uuid: 371f25ed-d8bd-47bc-a176-674ca02cedc9
+langcode: en
+status: false
+dependencies: {  }
+label: 'Full (Block_content, Basic block)'
+id: block_content_basic_full
+json_values: '{"canvas":[],"mapper":null,"model":[]}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+modified: false
+selectable: false
+custom: false
+twig_template: null
+default: false
+entity_type: block_content
+bundle: basic
+view_mode: full
+master_template: ''

@@ -1,0 +1,29 @@
+_core:
+  default_config_hash: gpIMmHdWGMtTf2ZJoO-QHF9bk9ZVESnX-4LD-r3YtTw
+api_build_status: NO_CONTENT
+api_url: 'https://eu-api.sitestudio.acquia.com'
+api_key: amethystpanther-12295
+organization_key: axelerant-81728
+site_id: d8ffd5a2-5e7b-446d-b0dd-f51411996b9a
+use_dx8: enable
+google_map_api_key: ''
+asset_is_imported: '1'
+animate_on_view_mobile: DISABLED
+elements_permissions: '{}'
+sidebar_view_style: thumbnails
+log_dx8_error: enable
+add_animation_classes: DISABLED
+sync_legacy_visibility: false
+image_browser:
+  config:
+    type: imce_imagebrowser
+    dx8_imce_stream_wrapper: public
+  content:
+    type: medialib_imagebrowser
+    dx8_imce_stream_wrapper: public
+    cohesion_media_lib_types:
+      - audio
+      - document
+      - image
+      - remote_video
+      - video

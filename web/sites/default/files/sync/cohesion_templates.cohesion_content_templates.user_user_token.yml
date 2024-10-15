@@ -1,0 +1,18 @@
+uuid: b72359be-bd81-4a87-a554-a1f3e226cd7c
+langcode: en
+status: false
+dependencies: {  }
+label: 'Token (User, User)'
+id: user_user_token
+json_values: '{"canvas":[],"mapper":null,"model":[]}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+modified: false
+selectable: false
+custom: false
+twig_template: null
+default: false
+entity_type: user
+bundle: user
+view_mode: token
+master_template: ''

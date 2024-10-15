@@ -1,0 +1,18 @@
+uuid: 3e4d88fe-fe5d-44a0-ac6d-f59a84bc0d41
+langcode: en
+status: false
+dependencies: {  }
+label: 'Media library (Media, Remote video)'
+id: media_remote_video_media_library
+json_values: '{"canvas":[],"mapper":null,"model":[]}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+modified: false
+selectable: false
+custom: false
+twig_template: null
+default: false
+entity_type: media
+bundle: remote_video
+view_mode: media_library
+master_template: ''

@@ -1,0 +1,13 @@
+uuid: 77b3ffa4-2df3-4ca7-9e25-b3bf7df65fad
+langcode: en
+status: false
+dependencies: {  }
+label: Paragraph
+id: paragraph
+json_values: '{}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: false
+selectable: false
+custom: null
