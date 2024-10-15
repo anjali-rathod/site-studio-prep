@@ -1,0 +1,17 @@
+uuid: be4e0772-be78-42c2-94c9-80edd89f3d64
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:18e126b6-406c-4864-b577-3359bc680d6a'
+    - 'file:file:31d63480-6df8-4849-98a6-c10e9bb69d3c'
+    - 'file:file:83a93447-1e4b-47d0-a791-65bd055b17de'
+label: 'Icomoon '
+id: Icomoon
+json_values: '{"fontFamilyName":"Icomoon","inuse":false,"name":"Icomoon ","key":"uploadIcomoon","type":"upload","provider":"Icomoon","fontDisplay":"auto","fontFiles":{"eot":{"type":"file","uri":"public:\/\/cohesion\/icomoon.eot","uuid":"83a93447-1e4b-47d0-a791-65bd055b17de"},"ttf":{"type":"file","uri":"public:\/\/cohesion\/icomoon.ttf","uuid":"18e126b6-406c-4864-b577-3359bc680d6a"},"woff":{"type":"file","uri":"public:\/\/cohesion\/icomoon.woff","uuid":"31d63480-6df8-4849-98a6-c10e9bb69d3c"},"woff2":null}}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: false
+selectable: true
+source: null

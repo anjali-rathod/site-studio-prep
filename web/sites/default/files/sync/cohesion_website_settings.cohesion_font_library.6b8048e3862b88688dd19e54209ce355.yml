@@ -1,0 +1,15 @@
+uuid: e8078efe-5b69-4610-861e-0e1de6a6410a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:d71d8d9b-ac82-41d1-9ba5-c2572a92bfaa'
+label: 'Roboto Regular'
+id: 6b8048e3862b88688dd19e54209ce355
+json_values: '{"type":"upload","fontDisplay":"auto","name":"Roboto Regular","fontFiles":{"eot":null,"ttf":{"type":"file","uri":"public:\/\/cohesion\/Roboto-BoldItalic.ttf","uuid":"d71d8d9b-ac82-41d1-9ba5-c2572a92bfaa"},"woff":null,"woff2":null},"uid":"6b8048e3862b88688dd19e54209ce355"}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+source: fonts

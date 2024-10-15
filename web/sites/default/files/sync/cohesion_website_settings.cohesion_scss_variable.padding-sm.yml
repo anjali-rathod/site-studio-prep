@@ -1,0 +1,13 @@
+uuid: c84674b6-0d06-4674-8f8b-ca2a7348649a
+langcode: en
+status: true
+dependencies: {  }
+label: null
+id: padding-sm
+json_values: '{"uid":"padding-sm","value":"16px"}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+weight: 0

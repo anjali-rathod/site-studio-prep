@@ -1,0 +1,14 @@
+[data-icon-icomoon] {
+  font-family: "Icomoon", serif;
+}
+[data-icon-icomoon]:after {
+  font-family: "Icomoon", serif;
+  content: attr(data-icon-icomoon);
+}
+
+@font-face {
+  font-family: "Icomoon";
+  src: url("/sites/default/files/cohesion/icomoon.eot");
+  src: url("/sites/default/files/cohesion/icomoon.eot?#iefix") format("embedded-opentype"), url("/sites/default/files/cohesion/icomoon.woff") format("woff"), url("/sites/default/files/cohesion/icomoon.ttf") format("truetype");
+  font-display: auto;
+}
