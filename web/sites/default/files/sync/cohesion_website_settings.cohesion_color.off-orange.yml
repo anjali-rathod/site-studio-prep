@@ -1,0 +1,13 @@
+uuid: 784b3ba4-ac02-4446-87af-2d313c0b06ed
+langcode: en
+status: true
+dependencies: {  }
+label: 'off orange'
+id: off-orange
+json_values: '{"link":true,"value":{"value":{"hex":"#ffd19c","rgba":"rgba(255, 209, 156, 1)"}},"uid":"off-orange","name":"off orange","class":".coh-color-off-orange","variable":"$coh-color-off-orange","tags":[{"label":"orange","value":"orange"}]}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+weight: 5
