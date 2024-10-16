@@ -879,6 +879,7 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 if (getenv('IS_DDEV_PROJECT') == 'true' && file_exists(__DIR__ . '/settings.ddev.php')) {
   include __DIR__ . '/settings.ddev.php';
 }
+$settings['file_public_path'] = 'sites/default/files';
 
 /**
  * Load local development override configuration, if available.

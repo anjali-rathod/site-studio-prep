@@ -1,0 +1,76 @@
+{% set coh_instance_class %}{{ coh_instanceid() }}{% endset %}{{ attach_library('cohesion/global_libraries.responsiveJs') }} {{ attach_library('cohesion/global_libraries.windowscroll') }} {{ attach_library('cohesion/element_templates.link') }} {{ attach_library('cohesion/global_libraries.matchHeight') }} {{ attach_library('cohesion/global_libraries.parallax_scrolling') }} {{ attach_library('cohesion/global_libraries.cohMatchHeights') }} {{ attach_library('cohesion/element_templates.row-for-columns') }} {{ attach_library('cohesion/coh_element_container') }} <div class="coh-container ssa-component coh-component ssa-component-instance-{{componentUuid}} coh-component-instance-{{componentUuid}} {{ coh_instance_class }} coh-ce-cpt_1_column_layout-5d838e07" > {{ attach_library('cohesion/coh_element_container') }} <div class="coh-container {% if getComponentFieldValue('c469e24d-d155-46d5-a9ca-dc61028163c6') == 'boxed' %}coh-container-boxed{% endif %}" > <div class="coh-row coh-row-xl coh-row-visible-xl" data-coh-row-match-heights="[]"> <div class="coh-row-inner {{ getComponentFieldValue("74a865c3-d896-45d6-ba96-5ac344ad9942") | raw }} {{ coh_instance_class }} coh-ce-cpt_1_column_layout-3878316d"> <div class="coh-column {{ coh_instance_class }} coh-ce-cpt_1_column_layout-979786f7 {% if getComponentFieldValue('09032d58-36ec-4b7d-93f0-ce4110e125c0') == -1 %}coh-hidden-ps{% elseif getComponentFieldValue('09032d58-36ec-4b7d-93f0-ce4110e125c0') == -2 %}coh-col-ps{% elseif getComponentFieldValue('09032d58-36ec-4b7d-93f0-ce4110e125c0') == -3 %}coh-col-ps-auto{% else %}coh-visible-ps coh-col-ps-{{ getComponentFieldValue('09032d58-36ec-4b7d-93f0-ce4110e125c0') |split('.')|join('-') }}{% endif %} coh-col-ps-push-0 coh-col-ps-pull-0 {% if getComponentFieldValue('5dcf43ba-fc68-44d2-a27c-03a042c3158e') == -1 %}coh-hidden-sm{% elseif getComponentFieldValue('5dcf43ba-fc68-44d2-a27c-03a042c3158e') == -2 %}coh-col-sm{% elseif getComponentFieldValue('5dcf43ba-fc68-44d2-a27c-03a042c3158e') == -3 %}coh-col-sm-auto{% else %}coh-visible-sm coh-col-sm-{{ getComponentFieldValue('5dcf43ba-fc68-44d2-a27c-03a042c3158e') |split('.')|join('-') }}{% endif %} {% if getComponentFieldValue('6f05f900-24d3-4a0c-85ab-1e783ac9d8e7') != -1 %}coh-col-sm-push-{{ getComponentFieldValue('6f05f900-24d3-4a0c-85ab-1e783ac9d8e7') |split('.')|join('-') }}{% else %}coh-col-sm-push-0{% endif %} {% if getComponentFieldValue('d7af9c66-4d99-4107-8709-fd9f399d14cb') != -1 %}coh-col-sm-pull-{{ getComponentFieldValue('d7af9c66-4d99-4107-8709-fd9f399d14cb') |split('.')|join('-') }}{% else %}coh-col-sm-pull-0{% endif %} {% if getComponentFieldValue('6b754e7a-6c7c-4ed2-9399-b64496075e6b') == -1 %}coh-hidden-xl{% elseif getComponentFieldValue('6b754e7a-6c7c-4ed2-9399-b64496075e6b') == -2 %}coh-col-xl{% elseif getComponentFieldValue('6b754e7a-6c7c-4ed2-9399-b64496075e6b') == -3 %}coh-col-xl-auto{% else %}coh-visible-xl coh-col-xl-{{ getComponentFieldValue('6b754e7a-6c7c-4ed2-9399-b64496075e6b') |split('.')|join('-') }}{% endif %} {% if getComponentFieldValue('4939e8b3-bae0-47ca-9527-5d7be5138e51') != -1 %}coh-col-xl-push-{{ getComponentFieldValue('4939e8b3-bae0-47ca-9527-5d7be5138e51') |split('.')|join('-') }}{% else %}coh-col-xl-push-0{% endif %} {% if getComponentFieldValue('ad62c677-81e9-4361-b36d-905eceb8fce9') != -1 %}coh-col-xl-pull-{{ getComponentFieldValue('ad62c677-81e9-4361-b36d-905eceb8fce9') |split('.')|join('-') }}{% else %}coh-col-xl-pull-0{% endif %}" > {{ getComponentFieldValue("c0116a84-e80c-428d-b6ff-ae43dda904f7") }} </div> </div> </div> </div> </div> 
+{% set compiledCSS %}<style>.{{ coh_instance_class }}.coh-ce-cpt_1_column_layout-5d838e07 {
+{% if getComponentFieldValue("4b2bcc20-34e1-4840-9341-e93c696d4544") is not empty %}   {% if getComponentFieldValue("4b2bcc20-34e1-4840-9341-e93c696d4544") is not empty %} background-color: {{ getComponentFieldValue("4b2bcc20-34e1-4840-9341-e93c696d4544") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("fb5f1ae2-6b83-4e8c-8a5f-5dc3befef3b8") is not empty %}   {% if getComponentFieldValue("fb5f1ae2-6b83-4e8c-8a5f-5dc3befef3b8") is not empty %} background-image: url("{% set src %}{{ getComponentFieldValue("fb5f1ae2-6b83-4e8c-8a5f-5dc3befef3b8") | raw }}{% endset %}{% set imagestyle %}coh_xx_large_landscape{% endset %}{{ cohesion_image_style(src, imagestyle)}}");{% endif %}{% endif %}
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+@media (max-width: 1023px) {
+  .{{ coh_instance_class }}.coh-ce-cpt_1_column_layout-5d838e07 {
+{% if getComponentFieldValue("fb5f1ae2-6b83-4e8c-8a5f-5dc3befef3b8") is not empty %}     {% if getComponentFieldValue("fb5f1ae2-6b83-4e8c-8a5f-5dc3befef3b8") is not empty %} background-image: url("{% set src %}{{ getComponentFieldValue("fb5f1ae2-6b83-4e8c-8a5f-5dc3befef3b8") | raw }}{% endset %}{% set imagestyle %}coh_medium{% endset %}{{ cohesion_image_style(src, imagestyle)}}");{% endif %}{% endif %}
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+}
+@media (max-width: 767px) {
+  .{{ coh_instance_class }}.coh-ce-cpt_1_column_layout-5d838e07 {
+{% if getComponentFieldValue("aec3af07-ac91-43f0-9ea9-7f5a7e81a5db") is not empty %}     {% if getComponentFieldValue("aec3af07-ac91-43f0-9ea9-7f5a7e81a5db") is not empty %} background-image: url("{% set src %}{{ getComponentFieldValue("aec3af07-ac91-43f0-9ea9-7f5a7e81a5db") | raw }}{% endset %}{% set imagestyle %}coh_small{% endset %}{{ cohesion_image_style(src, imagestyle)}}");{% endif %}{% endif %}
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+}
+{% if getComponentFieldValue("2647a498-53ac-4cf2-84d7-9a621dd838a0") is not empty or getComponentFieldValue("2647a498-53ac-4cf2-84d7-9a621dd838a0") is not empty or getComponentFieldValue("2647a498-53ac-4cf2-84d7-9a621dd838a0") is not empty or getComponentFieldValue("2647a498-53ac-4cf2-84d7-9a621dd838a0") is not empty or getComponentFieldValue("2a2a10d2-02a6-4263-a8a7-6c84701354f9") is not empty or getComponentFieldValue("d5dbd40f-6af7-413c-a38e-323fc3154a58") is not empty or getComponentFieldValue("6e2005ad-103a-4e90-a28f-b12587182f5e") is not empty %}.{{ coh_instance_class }}.coh-ce-cpt_1_column_layout-3878316d {
+{% if getComponentFieldValue("2647a498-53ac-4cf2-84d7-9a621dd838a0") is not empty %}   {% if getComponentFieldValue("2647a498-53ac-4cf2-84d7-9a621dd838a0") is not empty %} -webkit-box-pack: {{ getComponentFieldValue("2647a498-53ac-4cf2-84d7-9a621dd838a0") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("2647a498-53ac-4cf2-84d7-9a621dd838a0") is not empty %}   {% if getComponentFieldValue("2647a498-53ac-4cf2-84d7-9a621dd838a0") is not empty %} -webkit-justify-content: {{ getComponentFieldValue("2647a498-53ac-4cf2-84d7-9a621dd838a0") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("2647a498-53ac-4cf2-84d7-9a621dd838a0") is not empty %}       {% if getComponentFieldValue("2647a498-53ac-4cf2-84d7-9a621dd838a0") is not empty %} -ms-flex-pack: {{ getComponentFieldValue("2647a498-53ac-4cf2-84d7-9a621dd838a0") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("2647a498-53ac-4cf2-84d7-9a621dd838a0") is not empty %}           {% if getComponentFieldValue("2647a498-53ac-4cf2-84d7-9a621dd838a0") is not empty %} justify-content: {{ getComponentFieldValue("2647a498-53ac-4cf2-84d7-9a621dd838a0") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("2a2a10d2-02a6-4263-a8a7-6c84701354f9") is not empty %}   {% if getComponentFieldValue("2a2a10d2-02a6-4263-a8a7-6c84701354f9") is not empty %} min-height: {{ getComponentFieldValue("2a2a10d2-02a6-4263-a8a7-6c84701354f9") | raw }};{% endif %}{% endif %}
+}
+@media (max-width: 1023px) {
+  .{{ coh_instance_class }}.coh-ce-cpt_1_column_layout-3878316d {
+{% if getComponentFieldValue("d5dbd40f-6af7-413c-a38e-323fc3154a58") is not empty %}     {% if getComponentFieldValue("d5dbd40f-6af7-413c-a38e-323fc3154a58") is not empty %} min-height: {{ getComponentFieldValue("d5dbd40f-6af7-413c-a38e-323fc3154a58") | raw }};{% endif %}{% endif %}
+  }
+}
+@media (max-width: 767px) {
+  .{{ coh_instance_class }}.coh-ce-cpt_1_column_layout-3878316d {
+{% if getComponentFieldValue("6e2005ad-103a-4e90-a28f-b12587182f5e") is not empty %}     {% if getComponentFieldValue("6e2005ad-103a-4e90-a28f-b12587182f5e") is not empty %} min-height: {{ getComponentFieldValue("6e2005ad-103a-4e90-a28f-b12587182f5e") | raw }};{% endif %}{% endif %}
+  }
+}{% endif %}
+.{{ coh_instance_class }}.coh-ce-cpt_1_column_layout-979786f7 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+{% if getComponentFieldValue("f8f8754f-4921-41ee-bb30-47fc98451736") is not empty %}   {% if getComponentFieldValue("f8f8754f-4921-41ee-bb30-47fc98451736") is not empty %} -webkit-box-pack: {{ getComponentFieldValue("f8f8754f-4921-41ee-bb30-47fc98451736") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("f8f8754f-4921-41ee-bb30-47fc98451736") is not empty %}   {% if getComponentFieldValue("f8f8754f-4921-41ee-bb30-47fc98451736") is not empty %} -webkit-justify-content: {{ getComponentFieldValue("f8f8754f-4921-41ee-bb30-47fc98451736") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("f8f8754f-4921-41ee-bb30-47fc98451736") is not empty %}       {% if getComponentFieldValue("f8f8754f-4921-41ee-bb30-47fc98451736") is not empty %} -ms-flex-pack: {{ getComponentFieldValue("f8f8754f-4921-41ee-bb30-47fc98451736") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("f8f8754f-4921-41ee-bb30-47fc98451736") is not empty %}           {% if getComponentFieldValue("f8f8754f-4921-41ee-bb30-47fc98451736") is not empty %} justify-content: {{ getComponentFieldValue("f8f8754f-4921-41ee-bb30-47fc98451736") | raw }};{% endif %}{% endif %}
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (max-width: 1023px) {
+  .{{ coh_instance_class }}.coh-ce-cpt_1_column_layout-979786f7 {
+{% if getComponentFieldValue("0214b304-c34f-4155-8795-52cd1c5621cb") is not empty %}     {% if getComponentFieldValue("0214b304-c34f-4155-8795-52cd1c5621cb") is not empty %} -webkit-box-pack: {{ getComponentFieldValue("0214b304-c34f-4155-8795-52cd1c5621cb") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("0214b304-c34f-4155-8795-52cd1c5621cb") is not empty %}     {% if getComponentFieldValue("0214b304-c34f-4155-8795-52cd1c5621cb") is not empty %} -webkit-justify-content: {{ getComponentFieldValue("0214b304-c34f-4155-8795-52cd1c5621cb") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("0214b304-c34f-4155-8795-52cd1c5621cb") is not empty %}         {% if getComponentFieldValue("0214b304-c34f-4155-8795-52cd1c5621cb") is not empty %} -ms-flex-pack: {{ getComponentFieldValue("0214b304-c34f-4155-8795-52cd1c5621cb") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("0214b304-c34f-4155-8795-52cd1c5621cb") is not empty %}             {% if getComponentFieldValue("0214b304-c34f-4155-8795-52cd1c5621cb") is not empty %} justify-content: {{ getComponentFieldValue("0214b304-c34f-4155-8795-52cd1c5621cb") | raw }};{% endif %}{% endif %}
+  }
+}
+@media (max-width: 767px) {
+  .{{ coh_instance_class }}.coh-ce-cpt_1_column_layout-979786f7 {
+{% if getComponentFieldValue("00ba9989-9e6f-40ba-b0a5-741c79bd5659") is not empty %}     {% if getComponentFieldValue("00ba9989-9e6f-40ba-b0a5-741c79bd5659") is not empty %} -webkit-box-pack: {{ getComponentFieldValue("00ba9989-9e6f-40ba-b0a5-741c79bd5659") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("00ba9989-9e6f-40ba-b0a5-741c79bd5659") is not empty %}     {% if getComponentFieldValue("00ba9989-9e6f-40ba-b0a5-741c79bd5659") is not empty %} -webkit-justify-content: {{ getComponentFieldValue("00ba9989-9e6f-40ba-b0a5-741c79bd5659") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("00ba9989-9e6f-40ba-b0a5-741c79bd5659") is not empty %}         {% if getComponentFieldValue("00ba9989-9e6f-40ba-b0a5-741c79bd5659") is not empty %} -ms-flex-pack: {{ getComponentFieldValue("00ba9989-9e6f-40ba-b0a5-741c79bd5659") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("00ba9989-9e6f-40ba-b0a5-741c79bd5659") is not empty %}             {% if getComponentFieldValue("00ba9989-9e6f-40ba-b0a5-741c79bd5659") is not empty %} justify-content: {{ getComponentFieldValue("00ba9989-9e6f-40ba-b0a5-741c79bd5659") | raw }};{% endif %}{% endif %}
+  }
+}
+</style>{% endset %}{{ renderInlineStyle(compiledCSS) | raw }}

@@ -1,0 +1,62 @@
+{% set coh_instance_class %}{{ coh_instanceid() }}{% endset %}{{ attach_library('cohesion/global_libraries.responsiveJs') }} {{ attach_library('cohesion/global_libraries.windowscroll') }} {{ attach_library('cohesion/element_templates.link') }} {{ attach_library('cohesion/global_libraries.matchHeight') }} {{ attach_library('cohesion/global_libraries.parallax_scrolling') }} {{ attach_library('cohesion/global_libraries.cohMatchHeights') }} {{ attach_library('cohesion/element_templates.row-for-columns') }} {{ attach_library('cohesion/coh_element_container') }} <div class="coh-container ssa-component coh-component ssa-component-instance-{{componentUuid}} coh-component-instance-{{componentUuid}} {{ getComponentFieldValue("f81220ea-36d9-4634-9071-b57ab5cccf41") | raw }} {{ coh_instance_class }} coh-ce-cpt_row_for_columns-5ce36641" > {{ attach_library('cohesion/coh_element_container') }} <div class="coh-container {% if getComponentFieldValue('46f6f15c-f5e8-47ab-9f5c-e0785a9ff827') == 'boxed' %}coh-container-boxed{% endif %}" > <div class="coh-row {% if getComponentFieldValue('e85d46e6-22a4-4cc8-9b2e-fbfb97a27f45') == 'retain' %}coh-row-xl{% else %}coh-row-bleed-xl{% endif %} coh-row-visible-xl" data-coh-row-match-heights="[]"> <div class="coh-row-inner {{ coh_instance_class }} coh-ce-cpt_row_for_columns-a16a1e1"> {{ getComponentFieldValue("e1d8dd08-9c37-48ea-87e7-46229da4b3b8") }} </div> </div> </div> </div> 
+{% set compiledCSS %}<style>.{{ coh_instance_class }}.coh-ce-cpt_row_for_columns-5ce36641 {
+{% if getComponentFieldValue("e4cb426c-e8f2-4138-898d-44e2baa287d0") is not empty %}   {% if getComponentFieldValue("e4cb426c-e8f2-4138-898d-44e2baa287d0") is not empty %} background-color: {{ getComponentFieldValue("e4cb426c-e8f2-4138-898d-44e2baa287d0") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("d0dfbc6a-3653-4051-af7a-af21035961a9") is not empty %}   {% if getComponentFieldValue("d0dfbc6a-3653-4051-af7a-af21035961a9") is not empty %} background-image: url("{% set src %}{{ getComponentFieldValue("d0dfbc6a-3653-4051-af7a-af21035961a9") | raw }}{% endset %}{% set imagestyle %}coh_xx_large_landscape{% endset %}{{ cohesion_image_style(src, imagestyle)}}");{% endif %}{% endif %}
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+@media (max-width: 1023px) {
+  .{{ coh_instance_class }}.coh-ce-cpt_row_for_columns-5ce36641 {
+{% if getComponentFieldValue("d0dfbc6a-3653-4051-af7a-af21035961a9") is not empty %}     {% if getComponentFieldValue("d0dfbc6a-3653-4051-af7a-af21035961a9") is not empty %} background-image: url("{% set src %}{{ getComponentFieldValue("d0dfbc6a-3653-4051-af7a-af21035961a9") | raw }}{% endset %}{% set imagestyle %}coh_medium_landscape{% endset %}{{ cohesion_image_style(src, imagestyle)}}");{% endif %}{% endif %}
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+}
+@media (max-width: 767px) {
+  .{{ coh_instance_class }}.coh-ce-cpt_row_for_columns-5ce36641 {
+{% if getComponentFieldValue("060ff16a-89d2-4497-8a38-6ef55bab5587") is not empty %}     {% if getComponentFieldValue("060ff16a-89d2-4497-8a38-6ef55bab5587") is not empty %} background-image: url("{% set src %}{{ getComponentFieldValue("060ff16a-89d2-4497-8a38-6ef55bab5587") | raw }}{% endset %}{% set imagestyle %}coh_small_landscape{% endset %}{{ cohesion_image_style(src, imagestyle)}}");{% endif %}{% endif %}
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+}
+.{{ coh_instance_class }}.coh-ce-cpt_row_for_columns-a16a1e1 {
+{% if getComponentFieldValue("ec292686-60b3-4698-a490-ecad55c3ef23") is not empty %}   {% if getComponentFieldValue("ec292686-60b3-4698-a490-ecad55c3ef23") is not empty %} -webkit-box-pack: {{ getComponentFieldValue("ec292686-60b3-4698-a490-ecad55c3ef23") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("ec292686-60b3-4698-a490-ecad55c3ef23") is not empty %}   {% if getComponentFieldValue("ec292686-60b3-4698-a490-ecad55c3ef23") is not empty %} -webkit-justify-content: {{ getComponentFieldValue("ec292686-60b3-4698-a490-ecad55c3ef23") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("ec292686-60b3-4698-a490-ecad55c3ef23") is not empty %}       {% if getComponentFieldValue("ec292686-60b3-4698-a490-ecad55c3ef23") is not empty %} -ms-flex-pack: {{ getComponentFieldValue("ec292686-60b3-4698-a490-ecad55c3ef23") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("ec292686-60b3-4698-a490-ecad55c3ef23") is not empty %}           {% if getComponentFieldValue("ec292686-60b3-4698-a490-ecad55c3ef23") is not empty %} justify-content: {{ getComponentFieldValue("ec292686-60b3-4698-a490-ecad55c3ef23") | raw }};{% endif %}{% endif %}
+}
+.column-margin-bottom-desktop.{{ coh_instance_class }}.coh-ce-cpt_row_for_columns-a16a1e1 .cpt-column {
+  margin-bottom: 2rem;
+}
+@media (max-width: 1169px) {
+  .column-margin-bottom-desktop.{{ coh_instance_class }}.coh-ce-cpt_row_for_columns-a16a1e1 .cpt-column {
+    margin-bottom: 1.5rem;
+  }
+}
+@media (max-width: 1023px) {
+  .column-margin-bottom-tablet.{{ coh_instance_class }}.coh-ce-cpt_row_for_columns-a16a1e1 {
+    margin-bottom: 1.5rem;
+  }
+}
+@media (max-width: 1023px) {
+  .column-margin-bottom-tablet.{{ coh_instance_class }}.coh-ce-cpt_row_for_columns-a16a1e1 .cpt-column {
+    margin-bottom: 1.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .column-margin-bottom-phone.{{ coh_instance_class }}.coh-ce-cpt_row_for_columns-a16a1e1 {
+    margin-bottom: 1.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .column-margin-bottom-phone.{{ coh_instance_class }}.coh-ce-cpt_row_for_columns-a16a1e1 .cpt-column {
+    margin-bottom: 1.5rem;
+  }
+}
+</style>{% endset %}{{ renderInlineStyle(compiledCSS) | raw }}

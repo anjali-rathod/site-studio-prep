@@ -1,0 +1,32 @@
+{% set coh_instance_class %}{{ coh_instanceid() }}{% endset %}{{ attach_library('cohesion/global_libraries.responsiveJs') }} {{ attach_library('cohesion/global_libraries.windowscroll') }} {{ attach_library('cohesion/element_templates.link') }} {{ attach_library('cohesion/element_templates.image') }} {{ attach_library('cohesion/global_libraries.matchHeight') }} {{ attach_library('cohesion/global_libraries.parallax_scrolling') }} {{ attach_library('cohesion/global_libraries.cohMatchHeights') }} {{ attach_library('cohesion/element_templates.link') }} {{ attach_library('cohesion/coh_element_container') }} <div class="coh-container ssa-component coh-component ssa-component-instance-{{componentUuid}} coh-component-instance-{{componentUuid}} {{ getComponentFieldValue("7921ccdd-2c07-4f44-b37b-1c7943fa7d6c") | raw }} {{ getComponentFieldValue("fcd919de-6660-45ca-bd32-56fa9a4cbde6") | raw }} coh-style-padding-small {{ coh_instance_class }} coh-ce-cpt_logo_card-bfe39550" > {% set hideData %}{{ getComponentFieldValue('50e621fb-db73-40b9-854f-ed892cfa8852', '') }}{% endset %} {% if hideData is null or hideData|trim != '' %} {{ attach_library('cohesion/coh_element_image') }} <img class="coh-image card-image coh-ce-cpt_logo_card-7e0447e5 coh-image-xl coh-image-align-left-xl" src="{% set src %}{{ getComponentFieldValue("50e621fb-db73-40b9-854f-ed892cfa8852") | raw }}{% endset %}{% set imagestyle %}coh_x_small{% endset %}{{ cohesion_image_style(src, imagestyle) }}" {% if getComponentFieldValue('e96be6d7-fee2-43c5-993b-126166cd7ff8') == '' %}alt{% else %}alt="{{ getComponentFieldValue("e96be6d7-fee2-43c5-993b-126166cd7ff8") | raw }}"{% endif %} /> {% endif %} {% set nid_2804954293 %}{{ getComponentFieldValue("c1a6be89-9798-40ff-905d-20eda8400069") | raw }}{% endset %}{% set hideData %}{% if nid_2804954293 != '' %}{{ path_renderer(nid_2804954293) }}{% endif %}{% endset %} {% if hideData is null or hideData|trim != '' %} {{ attach_library('cohesion/coh_element_link') }} <a href="{% set entityId %}{{ getComponentFieldValue("c1a6be89-9798-40ff-905d-20eda8400069") | raw }}{% endset %}{% if entityId != '' %}{{ path_renderer(entityId) }}{% endif %}" class="coh-link card-link coh-ce-cpt_logo_card-6456e07e" target="_self" > </a> {% endif %} </div> 
+{% set compiledCSS %}<style>.{{ coh_instance_class }}.coh-ce-cpt_logo_card-bfe39550 {
+{% if getComponentFieldValue("7edb64d1-eb39-4a09-8464-b18732d70a36") is not empty %}   {% if getComponentFieldValue("7edb64d1-eb39-4a09-8464-b18732d70a36") is not empty %} background-color: {{ getComponentFieldValue("7edb64d1-eb39-4a09-8464-b18732d70a36") | raw }};{% endif %}{% endif %}
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.border.{{ coh_instance_class }}.coh-ce-cpt_logo_card-bfe39550 {
+  border-width: 0.0625rem;
+  border-style: solid;
+{% if getComponentFieldValue("adabd83a-6c3f-4cac-9829-06e98412a1fe") is not empty %}   {% if getComponentFieldValue("adabd83a-6c3f-4cac-9829-06e98412a1fe") is not empty %} border-color: {{ getComponentFieldValue("adabd83a-6c3f-4cac-9829-06e98412a1fe") | raw }};{% endif %}{% endif %}
+}
+</style>{% endset %}{{ renderInlineStyle(compiledCSS) | raw }}
