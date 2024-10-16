@@ -7,38 +7,42 @@
   display: table;
 }
 .coh-container-boxed {
-  max-width: none;
-  margin-left: 1.1111111111rem;
-  margin-right: 1.1111111111rem;
+  margin: 0 auto;
+  max-width: 84rem;
 }
-@media (min-width: 565px) {
+@media (max-width: 1599px) {
   .coh-container-boxed {
-    margin: 0 auto;
-    max-width: 28.0555555556rem;
+    max-width: none;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 1169px) {
   .coh-container-boxed {
-    margin: 0 auto;
-    max-width: 39.3333333333rem;
+    max-width: none;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 }
-@media (min-width: 1024px) {
+@media (max-width: 1023px) {
   .coh-container-boxed {
-    margin: 0 auto;
-    max-width: 53.5555555556rem;
+    max-width: none;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 }
-@media (min-width: 1170px) {
+@media (max-width: 767px) {
   .coh-container-boxed {
-    margin: 0 auto;
-    max-width: 61.6666666667rem;
+    max-width: none;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
 }
-@media (min-width: 1400px) {
+@media (max-width: 564px) {
   .coh-container-boxed {
-    margin: 0 auto;
-    max-width: 74.4444444444rem;
+    max-width: none;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
 }
 .coh-container-boxed .coh-container-boxed {

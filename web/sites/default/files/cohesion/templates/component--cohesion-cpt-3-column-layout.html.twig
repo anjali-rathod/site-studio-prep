@@ -1,0 +1,174 @@
+{% set coh_instance_class %}{{ coh_instanceid() }}{% endset %}{{ attach_library('cohesion/global_libraries.responsiveJs') }} {{ attach_library('cohesion/global_libraries.windowscroll') }} {{ attach_library('cohesion/element_templates.link') }} {{ attach_library('cohesion/global_libraries.matchHeight') }} {{ attach_library('cohesion/global_libraries.parallax_scrolling') }} {{ attach_library('cohesion/global_libraries.cohMatchHeights') }} {{ attach_library('cohesion/element_templates.row-for-columns') }} {{ attach_library('cohesion/coh_element_container') }} <div class="coh-container ssa-component coh-component ssa-component-instance-{{componentUuid}} coh-component-instance-{{componentUuid}} {{ coh_instance_class }} coh-ce-cpt_3_column_layout-9c402b21" > {{ attach_library('cohesion/coh_element_container') }} <div class="coh-container {% if getComponentFieldValue('8aa2e024-830b-438b-a161-928c5da2fe98') == 'boxed' %}coh-container-boxed{% endif %}" > <div class="coh-row {% if getComponentFieldValue('93623539-1faa-4b11-9c6f-2478faf8910f') == 'retain' %}coh-row-xl{% else %}coh-row-bleed-xl{% endif %} coh-row-visible-xl" data-coh-row-match-heights="[]"> <div class="coh-row-inner {{ getComponentFieldValue("121adcfb-da18-4196-adca-96e7f5d9f9fe") | raw }} {{ coh_instance_class }} coh-ce-cpt_3_column_layout-b232d9ea"> <div class="coh-column {{ coh_instance_class }} coh-ce-cpt_3_column_layout-82082d59 {% if getComponentFieldValue('b2feeb03-a9ab-49e1-9fdd-49352289e69c') == -1 %}coh-hidden-ps{% elseif getComponentFieldValue('b2feeb03-a9ab-49e1-9fdd-49352289e69c') == -2 %}coh-col-ps{% elseif getComponentFieldValue('b2feeb03-a9ab-49e1-9fdd-49352289e69c') == -3 %}coh-col-ps-auto{% else %}coh-visible-ps coh-col-ps-{{ getComponentFieldValue('b2feeb03-a9ab-49e1-9fdd-49352289e69c') |split('.')|join('-') }}{% endif %} coh-col-ps-push-0 coh-col-ps-pull-0 {% if getComponentFieldValue('85017793-dfbd-44df-9263-694766aa6ec3') == -1 %}coh-hidden-sm{% elseif getComponentFieldValue('85017793-dfbd-44df-9263-694766aa6ec3') == -2 %}coh-col-sm{% elseif getComponentFieldValue('85017793-dfbd-44df-9263-694766aa6ec3') == -3 %}coh-col-sm-auto{% else %}coh-visible-sm coh-col-sm-{{ getComponentFieldValue('85017793-dfbd-44df-9263-694766aa6ec3') |split('.')|join('-') }}{% endif %} {% if getComponentFieldValue('8a64da7a-58eb-44a3-a38d-92b47a579ae7') != -1 %}coh-col-sm-push-{{ getComponentFieldValue('8a64da7a-58eb-44a3-a38d-92b47a579ae7') |split('.')|join('-') }}{% else %}coh-col-sm-push-0{% endif %} {% if getComponentFieldValue('e81a03a3-6a6f-4967-b7ca-7690fe7b50bb') != -1 %}coh-col-sm-pull-{{ getComponentFieldValue('e81a03a3-6a6f-4967-b7ca-7690fe7b50bb') |split('.')|join('-') }}{% else %}coh-col-sm-pull-0{% endif %} {% if getComponentFieldValue('64a8586d-a93d-4881-b2ec-3aa6880b2d80') == -1 %}coh-hidden-xl{% elseif getComponentFieldValue('64a8586d-a93d-4881-b2ec-3aa6880b2d80') == -2 %}coh-col-xl{% elseif getComponentFieldValue('64a8586d-a93d-4881-b2ec-3aa6880b2d80') == -3 %}coh-col-xl-auto{% else %}coh-visible-xl coh-col-xl-{{ getComponentFieldValue('64a8586d-a93d-4881-b2ec-3aa6880b2d80') |split('.')|join('-') }}{% endif %} {% if getComponentFieldValue('520c6dc7-ac15-4a31-8f08-15e2808b355b') != -1 %}coh-col-xl-push-{{ getComponentFieldValue('520c6dc7-ac15-4a31-8f08-15e2808b355b') |split('.')|join('-') }}{% else %}coh-col-xl-push-0{% endif %} {% if getComponentFieldValue('a1973212-bdab-4c66-8623-73451b1edfac') != -1 %}coh-col-xl-pull-{{ getComponentFieldValue('a1973212-bdab-4c66-8623-73451b1edfac') |split('.')|join('-') }}{% else %}coh-col-xl-pull-0{% endif %}" > {{ getComponentFieldValue("b9c76516-ebb6-4689-956c-62ad9994ffb8") }} </div> <div class="coh-column {{ coh_instance_class }} coh-ce-cpt_3_column_layout-f435e59f {% if getComponentFieldValue('7e35b061-3c8b-408c-8192-3646192a6673') == -1 %}coh-hidden-ps{% elseif getComponentFieldValue('7e35b061-3c8b-408c-8192-3646192a6673') == -2 %}coh-col-ps{% elseif getComponentFieldValue('7e35b061-3c8b-408c-8192-3646192a6673') == -3 %}coh-col-ps-auto{% else %}coh-visible-ps coh-col-ps-{{ getComponentFieldValue('7e35b061-3c8b-408c-8192-3646192a6673') |split('.')|join('-') }}{% endif %} coh-col-ps-push-0 coh-col-ps-pull-0 {% if getComponentFieldValue('933fc7b6-0770-4e7b-976c-d21eebb960f3') == -1 %}coh-hidden-sm{% elseif getComponentFieldValue('933fc7b6-0770-4e7b-976c-d21eebb960f3') == -2 %}coh-col-sm{% elseif getComponentFieldValue('933fc7b6-0770-4e7b-976c-d21eebb960f3') == -3 %}coh-col-sm-auto{% else %}coh-visible-sm coh-col-sm-{{ getComponentFieldValue('933fc7b6-0770-4e7b-976c-d21eebb960f3') |split('.')|join('-') }}{% endif %} {% if getComponentFieldValue('25e65a1e-f836-4da0-a2bd-f81df5da93e2') != -1 %}coh-col-sm-push-{{ getComponentFieldValue('25e65a1e-f836-4da0-a2bd-f81df5da93e2') |split('.')|join('-') }}{% else %}coh-col-sm-push-0{% endif %} {% if getComponentFieldValue('f7bfd3dd-5488-4a02-b3db-d300b715909d') != -1 %}coh-col-sm-pull-{{ getComponentFieldValue('f7bfd3dd-5488-4a02-b3db-d300b715909d') |split('.')|join('-') }}{% else %}coh-col-sm-pull-0{% endif %} {% if getComponentFieldValue('5be7ab53-3b58-4709-b5d2-5a634bbc42ab') == -1 %}coh-hidden-xl{% elseif getComponentFieldValue('5be7ab53-3b58-4709-b5d2-5a634bbc42ab') == -2 %}coh-col-xl{% elseif getComponentFieldValue('5be7ab53-3b58-4709-b5d2-5a634bbc42ab') == -3 %}coh-col-xl-auto{% else %}coh-visible-xl coh-col-xl-{{ getComponentFieldValue('5be7ab53-3b58-4709-b5d2-5a634bbc42ab') |split('.')|join('-') }}{% endif %} {% if getComponentFieldValue('26c7c24e-e4c1-476c-87c6-13ba5c117756') != -1 %}coh-col-xl-push-{{ getComponentFieldValue('26c7c24e-e4c1-476c-87c6-13ba5c117756') |split('.')|join('-') }}{% else %}coh-col-xl-push-0{% endif %} {% if getComponentFieldValue('2bdbfc57-b9e9-4e09-9505-95237c18d2e7') != -1 %}coh-col-xl-pull-{{ getComponentFieldValue('2bdbfc57-b9e9-4e09-9505-95237c18d2e7') |split('.')|join('-') }}{% else %}coh-col-xl-pull-0{% endif %}" > {{ getComponentFieldValue("970fdbba-b933-4a2d-a4e6-ef5f6be011bf") }} </div> <div class="coh-column {{ coh_instance_class }} coh-ce-cpt_3_column_layout-7684b2fd {% if getComponentFieldValue('97bfbc85-acdf-41b2-bf52-149351291a64') == -1 %}coh-hidden-ps{% elseif getComponentFieldValue('97bfbc85-acdf-41b2-bf52-149351291a64') == -2 %}coh-col-ps{% elseif getComponentFieldValue('97bfbc85-acdf-41b2-bf52-149351291a64') == -3 %}coh-col-ps-auto{% else %}coh-visible-ps coh-col-ps-{{ getComponentFieldValue('97bfbc85-acdf-41b2-bf52-149351291a64') |split('.')|join('-') }}{% endif %} coh-col-ps-push-0 coh-col-ps-pull-0 {% if getComponentFieldValue('de372c9e-e576-4eeb-86de-53fe6cef7fb5') == -1 %}coh-hidden-sm{% elseif getComponentFieldValue('de372c9e-e576-4eeb-86de-53fe6cef7fb5') == -2 %}coh-col-sm{% elseif getComponentFieldValue('de372c9e-e576-4eeb-86de-53fe6cef7fb5') == -3 %}coh-col-sm-auto{% else %}coh-visible-sm coh-col-sm-{{ getComponentFieldValue('de372c9e-e576-4eeb-86de-53fe6cef7fb5') |split('.')|join('-') }}{% endif %} {% if getComponentFieldValue('57525b69-2e74-4971-8ded-ada4215390e2') != -1 %}coh-col-sm-push-{{ getComponentFieldValue('57525b69-2e74-4971-8ded-ada4215390e2') |split('.')|join('-') }}{% else %}coh-col-sm-push-0{% endif %} {% if getComponentFieldValue('693fd63f-e98d-40db-94e4-bb030f8bc6b9') != -1 %}coh-col-sm-pull-{{ getComponentFieldValue('693fd63f-e98d-40db-94e4-bb030f8bc6b9') |split('.')|join('-') }}{% else %}coh-col-sm-pull-0{% endif %} {% if getComponentFieldValue('89b47bb4-e5ba-4764-99ef-494b3458584a') == -1 %}coh-hidden-xl{% elseif getComponentFieldValue('89b47bb4-e5ba-4764-99ef-494b3458584a') == -2 %}coh-col-xl{% elseif getComponentFieldValue('89b47bb4-e5ba-4764-99ef-494b3458584a') == -3 %}coh-col-xl-auto{% else %}coh-visible-xl coh-col-xl-{{ getComponentFieldValue('89b47bb4-e5ba-4764-99ef-494b3458584a') |split('.')|join('-') }}{% endif %} {% if getComponentFieldValue('9238ba22-ac87-45a5-b5ce-166f166aae14') != -1 %}coh-col-xl-push-{{ getComponentFieldValue('9238ba22-ac87-45a5-b5ce-166f166aae14') |split('.')|join('-') }}{% else %}coh-col-xl-push-0{% endif %} {% if getComponentFieldValue('050b5f42-32b7-4894-91b9-25c3a4d45455') != -1 %}coh-col-xl-pull-{{ getComponentFieldValue('050b5f42-32b7-4894-91b9-25c3a4d45455') |split('.')|join('-') }}{% else %}coh-col-xl-pull-0{% endif %}" > {{ getComponentFieldValue("efa7a1d3-fb2f-4e96-942e-4c14f544c3f4") }} </div> </div> </div> </div> </div> 
+{% set compiledCSS %}<style>.{{ coh_instance_class }}.coh-ce-cpt_3_column_layout-9c402b21 {
+{% if getComponentFieldValue("a4b43afd-9ffd-4c5a-875b-ee59087b495e") is not empty %}   {% if getComponentFieldValue("a4b43afd-9ffd-4c5a-875b-ee59087b495e") is not empty %} background-color: {{ getComponentFieldValue("a4b43afd-9ffd-4c5a-875b-ee59087b495e") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("a3b70935-979b-4b45-bfd4-50904a838887") is not empty %}   {% if getComponentFieldValue("a3b70935-979b-4b45-bfd4-50904a838887") is not empty %} background-image: url("{% set src %}{{ getComponentFieldValue("a3b70935-979b-4b45-bfd4-50904a838887") | raw }}{% endset %}{% set imagestyle %}coh_xx_large_landscape{% endset %}{{ cohesion_image_style(src, imagestyle)}}");{% endif %}{% endif %}
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+@media (max-width: 1023px) {
+  .{{ coh_instance_class }}.coh-ce-cpt_3_column_layout-9c402b21 {
+{% if getComponentFieldValue("a3b70935-979b-4b45-bfd4-50904a838887") is not empty %}     {% if getComponentFieldValue("a3b70935-979b-4b45-bfd4-50904a838887") is not empty %} background-image: url("{% set src %}{{ getComponentFieldValue("a3b70935-979b-4b45-bfd4-50904a838887") | raw }}{% endset %}{% set imagestyle %}coh_medium_landscape{% endset %}{{ cohesion_image_style(src, imagestyle)}}");{% endif %}{% endif %}
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+}
+@media (max-width: 767px) {
+  .{{ coh_instance_class }}.coh-ce-cpt_3_column_layout-9c402b21 {
+{% if getComponentFieldValue("dfb61792-65b1-4802-bbad-ae6ffbb5d44a") is not empty %}     {% if getComponentFieldValue("dfb61792-65b1-4802-bbad-ae6ffbb5d44a") is not empty %} background-image: url("{% set src %}{{ getComponentFieldValue("dfb61792-65b1-4802-bbad-ae6ffbb5d44a") | raw }}{% endset %}{% set imagestyle %}coh_small_landscape{% endset %}{{ cohesion_image_style(src, imagestyle)}}");{% endif %}{% endif %}
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+}
+{% if getComponentFieldValue("3774372b-7a2e-4c1f-af0a-c2ee5fde0cd3") is not empty or getComponentFieldValue("3774372b-7a2e-4c1f-af0a-c2ee5fde0cd3") is not empty or getComponentFieldValue("3774372b-7a2e-4c1f-af0a-c2ee5fde0cd3") is not empty or getComponentFieldValue("3774372b-7a2e-4c1f-af0a-c2ee5fde0cd3") is not empty or getComponentFieldValue("2fcd6390-af48-4818-b58f-123e87222817") is not empty or getComponentFieldValue("7b5812ba-e010-4afb-ae00-3e8fc90ad033") is not empty or getComponentFieldValue("ad3f11ac-f109-4ae6-ab37-f8a8200fd16a") is not empty %}.{{ coh_instance_class }}.coh-ce-cpt_3_column_layout-b232d9ea {
+{% if getComponentFieldValue("3774372b-7a2e-4c1f-af0a-c2ee5fde0cd3") is not empty %}   {% if getComponentFieldValue("3774372b-7a2e-4c1f-af0a-c2ee5fde0cd3") is not empty %} -webkit-box-pack: {{ getComponentFieldValue("3774372b-7a2e-4c1f-af0a-c2ee5fde0cd3") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("3774372b-7a2e-4c1f-af0a-c2ee5fde0cd3") is not empty %}   {% if getComponentFieldValue("3774372b-7a2e-4c1f-af0a-c2ee5fde0cd3") is not empty %} -webkit-justify-content: {{ getComponentFieldValue("3774372b-7a2e-4c1f-af0a-c2ee5fde0cd3") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("3774372b-7a2e-4c1f-af0a-c2ee5fde0cd3") is not empty %}       {% if getComponentFieldValue("3774372b-7a2e-4c1f-af0a-c2ee5fde0cd3") is not empty %} -ms-flex-pack: {{ getComponentFieldValue("3774372b-7a2e-4c1f-af0a-c2ee5fde0cd3") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("3774372b-7a2e-4c1f-af0a-c2ee5fde0cd3") is not empty %}           {% if getComponentFieldValue("3774372b-7a2e-4c1f-af0a-c2ee5fde0cd3") is not empty %} justify-content: {{ getComponentFieldValue("3774372b-7a2e-4c1f-af0a-c2ee5fde0cd3") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("2fcd6390-af48-4818-b58f-123e87222817") is not empty %}   {% if getComponentFieldValue("2fcd6390-af48-4818-b58f-123e87222817") is not empty %} min-height: {{ getComponentFieldValue("2fcd6390-af48-4818-b58f-123e87222817") | raw }};{% endif %}{% endif %}
+}
+@media (max-width: 1023px) {
+  .{{ coh_instance_class }}.coh-ce-cpt_3_column_layout-b232d9ea {
+{% if getComponentFieldValue("7b5812ba-e010-4afb-ae00-3e8fc90ad033") is not empty %}     {% if getComponentFieldValue("7b5812ba-e010-4afb-ae00-3e8fc90ad033") is not empty %} min-height: {{ getComponentFieldValue("7b5812ba-e010-4afb-ae00-3e8fc90ad033") | raw }};{% endif %}{% endif %}
+  }
+}
+@media (max-width: 767px) {
+  .{{ coh_instance_class }}.coh-ce-cpt_3_column_layout-b232d9ea {
+{% if getComponentFieldValue("ad3f11ac-f109-4ae6-ab37-f8a8200fd16a") is not empty %}     {% if getComponentFieldValue("ad3f11ac-f109-4ae6-ab37-f8a8200fd16a") is not empty %} min-height: {{ getComponentFieldValue("ad3f11ac-f109-4ae6-ab37-f8a8200fd16a") | raw }};{% endif %}{% endif %}
+  }
+}{% endif %}
+.{{ coh_instance_class }}.coh-ce-cpt_3_column_layout-82082d59 {
+  -webkit-box-ordinal-group: NaN;
+{% if getComponentFieldValue("326f150e-2db0-4fe2-9382-42d3439487d3") is not empty %}   {% if getComponentFieldValue("326f150e-2db0-4fe2-9382-42d3439487d3") is not empty %} -webkit-order: {{ getComponentFieldValue("326f150e-2db0-4fe2-9382-42d3439487d3") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("326f150e-2db0-4fe2-9382-42d3439487d3") is not empty %}       {% if getComponentFieldValue("326f150e-2db0-4fe2-9382-42d3439487d3") is not empty %} -ms-flex-order: {{ getComponentFieldValue("326f150e-2db0-4fe2-9382-42d3439487d3") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("326f150e-2db0-4fe2-9382-42d3439487d3") is not empty %}           {% if getComponentFieldValue("326f150e-2db0-4fe2-9382-42d3439487d3") is not empty %} order: {{ getComponentFieldValue("326f150e-2db0-4fe2-9382-42d3439487d3") | raw }};{% endif %}{% endif %}
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+{% if getComponentFieldValue("a94dbacb-5a9b-4fd7-a2bf-d2669ba04876") is not empty %}   {% if getComponentFieldValue("a94dbacb-5a9b-4fd7-a2bf-d2669ba04876") is not empty %} -webkit-box-pack: {{ getComponentFieldValue("a94dbacb-5a9b-4fd7-a2bf-d2669ba04876") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("a94dbacb-5a9b-4fd7-a2bf-d2669ba04876") is not empty %}   {% if getComponentFieldValue("a94dbacb-5a9b-4fd7-a2bf-d2669ba04876") is not empty %} -webkit-justify-content: {{ getComponentFieldValue("a94dbacb-5a9b-4fd7-a2bf-d2669ba04876") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("a94dbacb-5a9b-4fd7-a2bf-d2669ba04876") is not empty %}       {% if getComponentFieldValue("a94dbacb-5a9b-4fd7-a2bf-d2669ba04876") is not empty %} -ms-flex-pack: {{ getComponentFieldValue("a94dbacb-5a9b-4fd7-a2bf-d2669ba04876") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("a94dbacb-5a9b-4fd7-a2bf-d2669ba04876") is not empty %}           {% if getComponentFieldValue("a94dbacb-5a9b-4fd7-a2bf-d2669ba04876") is not empty %} justify-content: {{ getComponentFieldValue("a94dbacb-5a9b-4fd7-a2bf-d2669ba04876") | raw }};{% endif %}{% endif %}
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (max-width: 1023px) {
+  .{{ coh_instance_class }}.coh-ce-cpt_3_column_layout-82082d59 {
+    -webkit-box-ordinal-group: NaN;
+{% if getComponentFieldValue("992a086f-192f-4dc2-8d52-d43771b475e5") is not empty %}     {% if getComponentFieldValue("992a086f-192f-4dc2-8d52-d43771b475e5") is not empty %} -webkit-order: {{ getComponentFieldValue("992a086f-192f-4dc2-8d52-d43771b475e5") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("992a086f-192f-4dc2-8d52-d43771b475e5") is not empty %}         {% if getComponentFieldValue("992a086f-192f-4dc2-8d52-d43771b475e5") is not empty %} -ms-flex-order: {{ getComponentFieldValue("992a086f-192f-4dc2-8d52-d43771b475e5") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("992a086f-192f-4dc2-8d52-d43771b475e5") is not empty %}             {% if getComponentFieldValue("992a086f-192f-4dc2-8d52-d43771b475e5") is not empty %} order: {{ getComponentFieldValue("992a086f-192f-4dc2-8d52-d43771b475e5") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("7efdeaf0-b457-4687-bf6c-03d89bd3f082") is not empty %}     {% if getComponentFieldValue("7efdeaf0-b457-4687-bf6c-03d89bd3f082") is not empty %} -webkit-box-pack: {{ getComponentFieldValue("7efdeaf0-b457-4687-bf6c-03d89bd3f082") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("7efdeaf0-b457-4687-bf6c-03d89bd3f082") is not empty %}     {% if getComponentFieldValue("7efdeaf0-b457-4687-bf6c-03d89bd3f082") is not empty %} -webkit-justify-content: {{ getComponentFieldValue("7efdeaf0-b457-4687-bf6c-03d89bd3f082") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("7efdeaf0-b457-4687-bf6c-03d89bd3f082") is not empty %}         {% if getComponentFieldValue("7efdeaf0-b457-4687-bf6c-03d89bd3f082") is not empty %} -ms-flex-pack: {{ getComponentFieldValue("7efdeaf0-b457-4687-bf6c-03d89bd3f082") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("7efdeaf0-b457-4687-bf6c-03d89bd3f082") is not empty %}             {% if getComponentFieldValue("7efdeaf0-b457-4687-bf6c-03d89bd3f082") is not empty %} justify-content: {{ getComponentFieldValue("7efdeaf0-b457-4687-bf6c-03d89bd3f082") | raw }};{% endif %}{% endif %}
+  }
+}
+@media (max-width: 767px) {
+  .{{ coh_instance_class }}.coh-ce-cpt_3_column_layout-82082d59 {
+    -webkit-box-ordinal-group: NaN;
+{% if getComponentFieldValue("2376c5aa-ad8c-46dd-bcbd-3df637f35966") is not empty %}     {% if getComponentFieldValue("2376c5aa-ad8c-46dd-bcbd-3df637f35966") is not empty %} -webkit-order: {{ getComponentFieldValue("2376c5aa-ad8c-46dd-bcbd-3df637f35966") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("2376c5aa-ad8c-46dd-bcbd-3df637f35966") is not empty %}         {% if getComponentFieldValue("2376c5aa-ad8c-46dd-bcbd-3df637f35966") is not empty %} -ms-flex-order: {{ getComponentFieldValue("2376c5aa-ad8c-46dd-bcbd-3df637f35966") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("2376c5aa-ad8c-46dd-bcbd-3df637f35966") is not empty %}             {% if getComponentFieldValue("2376c5aa-ad8c-46dd-bcbd-3df637f35966") is not empty %} order: {{ getComponentFieldValue("2376c5aa-ad8c-46dd-bcbd-3df637f35966") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("e162e6e5-4dd1-4e20-8512-8a5ad1f8bf81") is not empty %}     {% if getComponentFieldValue("e162e6e5-4dd1-4e20-8512-8a5ad1f8bf81") is not empty %} -webkit-box-pack: {{ getComponentFieldValue("e162e6e5-4dd1-4e20-8512-8a5ad1f8bf81") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("e162e6e5-4dd1-4e20-8512-8a5ad1f8bf81") is not empty %}     {% if getComponentFieldValue("e162e6e5-4dd1-4e20-8512-8a5ad1f8bf81") is not empty %} -webkit-justify-content: {{ getComponentFieldValue("e162e6e5-4dd1-4e20-8512-8a5ad1f8bf81") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("e162e6e5-4dd1-4e20-8512-8a5ad1f8bf81") is not empty %}         {% if getComponentFieldValue("e162e6e5-4dd1-4e20-8512-8a5ad1f8bf81") is not empty %} -ms-flex-pack: {{ getComponentFieldValue("e162e6e5-4dd1-4e20-8512-8a5ad1f8bf81") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("e162e6e5-4dd1-4e20-8512-8a5ad1f8bf81") is not empty %}             {% if getComponentFieldValue("e162e6e5-4dd1-4e20-8512-8a5ad1f8bf81") is not empty %} justify-content: {{ getComponentFieldValue("e162e6e5-4dd1-4e20-8512-8a5ad1f8bf81") | raw }};{% endif %}{% endif %}
+  }
+}
+.{{ coh_instance_class }}.coh-ce-cpt_3_column_layout-f435e59f {
+  -webkit-box-ordinal-group: NaN;
+{% if getComponentFieldValue("1e002fa3-b5b6-425c-a1f6-4cf7f15f98d7") is not empty %}   {% if getComponentFieldValue("1e002fa3-b5b6-425c-a1f6-4cf7f15f98d7") is not empty %} -webkit-order: {{ getComponentFieldValue("1e002fa3-b5b6-425c-a1f6-4cf7f15f98d7") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("1e002fa3-b5b6-425c-a1f6-4cf7f15f98d7") is not empty %}       {% if getComponentFieldValue("1e002fa3-b5b6-425c-a1f6-4cf7f15f98d7") is not empty %} -ms-flex-order: {{ getComponentFieldValue("1e002fa3-b5b6-425c-a1f6-4cf7f15f98d7") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("1e002fa3-b5b6-425c-a1f6-4cf7f15f98d7") is not empty %}           {% if getComponentFieldValue("1e002fa3-b5b6-425c-a1f6-4cf7f15f98d7") is not empty %} order: {{ getComponentFieldValue("1e002fa3-b5b6-425c-a1f6-4cf7f15f98d7") | raw }};{% endif %}{% endif %}
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+{% if getComponentFieldValue("d566f78e-c832-444b-b736-a0d5128c7d08") is not empty %}   {% if getComponentFieldValue("d566f78e-c832-444b-b736-a0d5128c7d08") is not empty %} -webkit-box-pack: {{ getComponentFieldValue("d566f78e-c832-444b-b736-a0d5128c7d08") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("d566f78e-c832-444b-b736-a0d5128c7d08") is not empty %}   {% if getComponentFieldValue("d566f78e-c832-444b-b736-a0d5128c7d08") is not empty %} -webkit-justify-content: {{ getComponentFieldValue("d566f78e-c832-444b-b736-a0d5128c7d08") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("d566f78e-c832-444b-b736-a0d5128c7d08") is not empty %}       {% if getComponentFieldValue("d566f78e-c832-444b-b736-a0d5128c7d08") is not empty %} -ms-flex-pack: {{ getComponentFieldValue("d566f78e-c832-444b-b736-a0d5128c7d08") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("d566f78e-c832-444b-b736-a0d5128c7d08") is not empty %}           {% if getComponentFieldValue("d566f78e-c832-444b-b736-a0d5128c7d08") is not empty %} justify-content: {{ getComponentFieldValue("d566f78e-c832-444b-b736-a0d5128c7d08") | raw }};{% endif %}{% endif %}
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (max-width: 1023px) {
+  .{{ coh_instance_class }}.coh-ce-cpt_3_column_layout-f435e59f {
+    -webkit-box-ordinal-group: NaN;
+{% if getComponentFieldValue("ebe5c781-e614-4d52-a541-878b79986fd1") is not empty %}     {% if getComponentFieldValue("ebe5c781-e614-4d52-a541-878b79986fd1") is not empty %} -webkit-order: {{ getComponentFieldValue("ebe5c781-e614-4d52-a541-878b79986fd1") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("ebe5c781-e614-4d52-a541-878b79986fd1") is not empty %}         {% if getComponentFieldValue("ebe5c781-e614-4d52-a541-878b79986fd1") is not empty %} -ms-flex-order: {{ getComponentFieldValue("ebe5c781-e614-4d52-a541-878b79986fd1") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("ebe5c781-e614-4d52-a541-878b79986fd1") is not empty %}             {% if getComponentFieldValue("ebe5c781-e614-4d52-a541-878b79986fd1") is not empty %} order: {{ getComponentFieldValue("ebe5c781-e614-4d52-a541-878b79986fd1") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("79206749-2a7e-411c-9bc8-f607b4016444") is not empty %}     {% if getComponentFieldValue("79206749-2a7e-411c-9bc8-f607b4016444") is not empty %} -webkit-box-pack: {{ getComponentFieldValue("79206749-2a7e-411c-9bc8-f607b4016444") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("79206749-2a7e-411c-9bc8-f607b4016444") is not empty %}     {% if getComponentFieldValue("79206749-2a7e-411c-9bc8-f607b4016444") is not empty %} -webkit-justify-content: {{ getComponentFieldValue("79206749-2a7e-411c-9bc8-f607b4016444") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("79206749-2a7e-411c-9bc8-f607b4016444") is not empty %}         {% if getComponentFieldValue("79206749-2a7e-411c-9bc8-f607b4016444") is not empty %} -ms-flex-pack: {{ getComponentFieldValue("79206749-2a7e-411c-9bc8-f607b4016444") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("79206749-2a7e-411c-9bc8-f607b4016444") is not empty %}             {% if getComponentFieldValue("79206749-2a7e-411c-9bc8-f607b4016444") is not empty %} justify-content: {{ getComponentFieldValue("79206749-2a7e-411c-9bc8-f607b4016444") | raw }};{% endif %}{% endif %}
+  }
+}
+@media (max-width: 767px) {
+  .{{ coh_instance_class }}.coh-ce-cpt_3_column_layout-f435e59f {
+    -webkit-box-ordinal-group: NaN;
+{% if getComponentFieldValue("6fdcf187-68f6-44ea-a64b-7bd48919a53d") is not empty %}     {% if getComponentFieldValue("6fdcf187-68f6-44ea-a64b-7bd48919a53d") is not empty %} -webkit-order: {{ getComponentFieldValue("6fdcf187-68f6-44ea-a64b-7bd48919a53d") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("6fdcf187-68f6-44ea-a64b-7bd48919a53d") is not empty %}         {% if getComponentFieldValue("6fdcf187-68f6-44ea-a64b-7bd48919a53d") is not empty %} -ms-flex-order: {{ getComponentFieldValue("6fdcf187-68f6-44ea-a64b-7bd48919a53d") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("6fdcf187-68f6-44ea-a64b-7bd48919a53d") is not empty %}             {% if getComponentFieldValue("6fdcf187-68f6-44ea-a64b-7bd48919a53d") is not empty %} order: {{ getComponentFieldValue("6fdcf187-68f6-44ea-a64b-7bd48919a53d") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("7c6f6b12-e03e-4108-b362-d6c5b7d06090") is not empty %}     {% if getComponentFieldValue("7c6f6b12-e03e-4108-b362-d6c5b7d06090") is not empty %} -webkit-box-pack: {{ getComponentFieldValue("7c6f6b12-e03e-4108-b362-d6c5b7d06090") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("7c6f6b12-e03e-4108-b362-d6c5b7d06090") is not empty %}     {% if getComponentFieldValue("7c6f6b12-e03e-4108-b362-d6c5b7d06090") is not empty %} -webkit-justify-content: {{ getComponentFieldValue("7c6f6b12-e03e-4108-b362-d6c5b7d06090") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("7c6f6b12-e03e-4108-b362-d6c5b7d06090") is not empty %}         {% if getComponentFieldValue("7c6f6b12-e03e-4108-b362-d6c5b7d06090") is not empty %} -ms-flex-pack: {{ getComponentFieldValue("7c6f6b12-e03e-4108-b362-d6c5b7d06090") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("7c6f6b12-e03e-4108-b362-d6c5b7d06090") is not empty %}             {% if getComponentFieldValue("7c6f6b12-e03e-4108-b362-d6c5b7d06090") is not empty %} justify-content: {{ getComponentFieldValue("7c6f6b12-e03e-4108-b362-d6c5b7d06090") | raw }};{% endif %}{% endif %}
+  }
+}
+.{{ coh_instance_class }}.coh-ce-cpt_3_column_layout-7684b2fd {
+  -webkit-box-ordinal-group: NaN;
+{% if getComponentFieldValue("0ebaf284-605e-4f1f-890c-b1a721c65210") is not empty %}   {% if getComponentFieldValue("0ebaf284-605e-4f1f-890c-b1a721c65210") is not empty %} -webkit-order: {{ getComponentFieldValue("0ebaf284-605e-4f1f-890c-b1a721c65210") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("0ebaf284-605e-4f1f-890c-b1a721c65210") is not empty %}       {% if getComponentFieldValue("0ebaf284-605e-4f1f-890c-b1a721c65210") is not empty %} -ms-flex-order: {{ getComponentFieldValue("0ebaf284-605e-4f1f-890c-b1a721c65210") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("0ebaf284-605e-4f1f-890c-b1a721c65210") is not empty %}           {% if getComponentFieldValue("0ebaf284-605e-4f1f-890c-b1a721c65210") is not empty %} order: {{ getComponentFieldValue("0ebaf284-605e-4f1f-890c-b1a721c65210") | raw }};{% endif %}{% endif %}
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+{% if getComponentFieldValue("cbe27317-3d27-4ad0-b1b5-27a2e4468cf0") is not empty %}   {% if getComponentFieldValue("cbe27317-3d27-4ad0-b1b5-27a2e4468cf0") is not empty %} -webkit-box-pack: {{ getComponentFieldValue("cbe27317-3d27-4ad0-b1b5-27a2e4468cf0") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("cbe27317-3d27-4ad0-b1b5-27a2e4468cf0") is not empty %}   {% if getComponentFieldValue("cbe27317-3d27-4ad0-b1b5-27a2e4468cf0") is not empty %} -webkit-justify-content: {{ getComponentFieldValue("cbe27317-3d27-4ad0-b1b5-27a2e4468cf0") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("cbe27317-3d27-4ad0-b1b5-27a2e4468cf0") is not empty %}       {% if getComponentFieldValue("cbe27317-3d27-4ad0-b1b5-27a2e4468cf0") is not empty %} -ms-flex-pack: {{ getComponentFieldValue("cbe27317-3d27-4ad0-b1b5-27a2e4468cf0") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("cbe27317-3d27-4ad0-b1b5-27a2e4468cf0") is not empty %}           {% if getComponentFieldValue("cbe27317-3d27-4ad0-b1b5-27a2e4468cf0") is not empty %} justify-content: {{ getComponentFieldValue("cbe27317-3d27-4ad0-b1b5-27a2e4468cf0") | raw }};{% endif %}{% endif %}
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (max-width: 1023px) {
+  .{{ coh_instance_class }}.coh-ce-cpt_3_column_layout-7684b2fd {
+    -webkit-box-ordinal-group: NaN;
+{% if getComponentFieldValue("360f16a1-a8ad-478c-a7fe-3fb15e2963a8") is not empty %}     {% if getComponentFieldValue("360f16a1-a8ad-478c-a7fe-3fb15e2963a8") is not empty %} -webkit-order: {{ getComponentFieldValue("360f16a1-a8ad-478c-a7fe-3fb15e2963a8") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("360f16a1-a8ad-478c-a7fe-3fb15e2963a8") is not empty %}         {% if getComponentFieldValue("360f16a1-a8ad-478c-a7fe-3fb15e2963a8") is not empty %} -ms-flex-order: {{ getComponentFieldValue("360f16a1-a8ad-478c-a7fe-3fb15e2963a8") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("360f16a1-a8ad-478c-a7fe-3fb15e2963a8") is not empty %}             {% if getComponentFieldValue("360f16a1-a8ad-478c-a7fe-3fb15e2963a8") is not empty %} order: {{ getComponentFieldValue("360f16a1-a8ad-478c-a7fe-3fb15e2963a8") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("18fae0be-900c-4a88-8631-ea467f998c7e") is not empty %}     {% if getComponentFieldValue("18fae0be-900c-4a88-8631-ea467f998c7e") is not empty %} -webkit-box-pack: {{ getComponentFieldValue("18fae0be-900c-4a88-8631-ea467f998c7e") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("18fae0be-900c-4a88-8631-ea467f998c7e") is not empty %}     {% if getComponentFieldValue("18fae0be-900c-4a88-8631-ea467f998c7e") is not empty %} -webkit-justify-content: {{ getComponentFieldValue("18fae0be-900c-4a88-8631-ea467f998c7e") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("18fae0be-900c-4a88-8631-ea467f998c7e") is not empty %}         {% if getComponentFieldValue("18fae0be-900c-4a88-8631-ea467f998c7e") is not empty %} -ms-flex-pack: {{ getComponentFieldValue("18fae0be-900c-4a88-8631-ea467f998c7e") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("18fae0be-900c-4a88-8631-ea467f998c7e") is not empty %}             {% if getComponentFieldValue("18fae0be-900c-4a88-8631-ea467f998c7e") is not empty %} justify-content: {{ getComponentFieldValue("18fae0be-900c-4a88-8631-ea467f998c7e") | raw }};{% endif %}{% endif %}
+  }
+}
+@media (max-width: 767px) {
+  .{{ coh_instance_class }}.coh-ce-cpt_3_column_layout-7684b2fd {
+    -webkit-box-ordinal-group: NaN;
+{% if getComponentFieldValue("3a03a95e-3670-429a-9da5-568ab67b14e1") is not empty %}     {% if getComponentFieldValue("3a03a95e-3670-429a-9da5-568ab67b14e1") is not empty %} -webkit-order: {{ getComponentFieldValue("3a03a95e-3670-429a-9da5-568ab67b14e1") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("3a03a95e-3670-429a-9da5-568ab67b14e1") is not empty %}         {% if getComponentFieldValue("3a03a95e-3670-429a-9da5-568ab67b14e1") is not empty %} -ms-flex-order: {{ getComponentFieldValue("3a03a95e-3670-429a-9da5-568ab67b14e1") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("3a03a95e-3670-429a-9da5-568ab67b14e1") is not empty %}             {% if getComponentFieldValue("3a03a95e-3670-429a-9da5-568ab67b14e1") is not empty %} order: {{ getComponentFieldValue("3a03a95e-3670-429a-9da5-568ab67b14e1") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("2950f6a5-924c-48bf-9613-406666a247c7") is not empty %}     {% if getComponentFieldValue("2950f6a5-924c-48bf-9613-406666a247c7") is not empty %} -webkit-box-pack: {{ getComponentFieldValue("2950f6a5-924c-48bf-9613-406666a247c7") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("2950f6a5-924c-48bf-9613-406666a247c7") is not empty %}     {% if getComponentFieldValue("2950f6a5-924c-48bf-9613-406666a247c7") is not empty %} -webkit-justify-content: {{ getComponentFieldValue("2950f6a5-924c-48bf-9613-406666a247c7") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("2950f6a5-924c-48bf-9613-406666a247c7") is not empty %}         {% if getComponentFieldValue("2950f6a5-924c-48bf-9613-406666a247c7") is not empty %} -ms-flex-pack: {{ getComponentFieldValue("2950f6a5-924c-48bf-9613-406666a247c7") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("2950f6a5-924c-48bf-9613-406666a247c7") is not empty %}             {% if getComponentFieldValue("2950f6a5-924c-48bf-9613-406666a247c7") is not empty %} justify-content: {{ getComponentFieldValue("2950f6a5-924c-48bf-9613-406666a247c7") | raw }};{% endif %}{% endif %}
+  }
+}
+</style>{% endset %}{{ renderInlineStyle(compiledCSS) | raw }}

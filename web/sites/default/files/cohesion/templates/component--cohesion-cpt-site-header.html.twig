@@ -1,0 +1,56 @@
+{% set coh_instance_class %}{{ coh_instanceid() }}{% endset %}{{ attach_library('cohesion/global_libraries.responsiveJs') }} {{ attach_library('cohesion/global_libraries.windowscroll') }} {{ attach_library('cohesion/element_templates.link') }} {{ attach_library('cohesion/element_templates.image') }} {{ attach_library('cohesion/global_libraries.matchHeight') }} {{ attach_library('cohesion/global_libraries.parallax_scrolling') }} {{ attach_library('cohesion/global_libraries.cohMatchHeights') }} {{ attach_library('cohesion/element_templates.link') }} {{ attach_library('cohesion/element_templates.drupal-menu') }} {{ attach_library('cohesion/coh_element_container') }} <header class="coh-container ssa-component coh-component ssa-component-instance-{{componentUuid}} coh-component-instance-{{componentUuid}} site-header {{ getComponentFieldValue("ccdfb29c-9653-4cf2-97a8-349e2fd98fa6") | raw }} {{ getComponentFieldValue("7a8763cb-a384-46b3-ab55-b30a917df1fb") | raw }} {{ getComponentFieldValue("1e034b8c-7f7a-4505-830c-ed12ac608c6a") | raw }} {{ getComponentFieldValue("3ce77ba2-fdff-4656-9b51-8257a78f2bf3") | raw }} coh-style-focusable-content coh-ce-cpt_site_header-e51d7f53" > {{ renderComponent("cpt_utilities_bar_horizontal", true, _context, [], "810cc906-cdb0-41c2-a9a8-4d9934045f41", "")  }} {{ attach_library('cohesion/coh_element_container') }} <div class="coh-container coh-ce-cpt_site_header-6577ed22" > {{ attach_library('cohesion/coh_element_container') }} <div class="coh-container {{ coh_instance_class }} coh-ce-cpt_site_header-fdfdb89e" > {{ attach_library('cohesion/coh_element_link') }} <a href="{% set href %}/{% endset %}{{ escape_url(href) }}" class="coh-link {{ coh_instance_class }} coh-ce-cpt_site_header-b8f9e4d0" target="_self" > {{ attach_library('cohesion/coh_element_image') }} <img class="coh-image coh-ce-cpt_site_header-5282b65d coh-image-responsive-xl" src="{% set src %}{{ getComponentFieldValue("fd8690ce-ff64-46b5-8995-fd737ee47275") | raw }}{% endset %}{% set imagestyle %}{% endset %}{{ cohesion_image_style(src, imagestyle) }}" {% if getComponentFieldValue('b6d34883-8a15-4507-a299-4ed89592398b') == '' %}alt{% else %}alt="{{ getComponentFieldValue("b6d34883-8a15-4507-a299-4ed89592398b") | raw }}"{% endif %} /> </a> </div> {{ attach_library('cohesion/coh_element_container') }} <div class="coh-container coh-ce-cpt_site_header-e2a0ade6" > {{ attach_library('cohesion/global_libraries.jquery_ui_effect_blind') }} {{ attach_library('cohesion/global_libraries.jquery_ui_effect_none') }} <button class="coh-button main-menu-toggle-button coh-ce-cpt_site_header-f9afdd26 coh-interaction" data-interaction-modifiers="[{&quot;modifierType&quot;:&quot;toggle-modifier-accessible-collapsed&quot;,&quot;interactionScope&quot;:&quot;component&quot;,&quot;interactionTarget&quot;:&quot;.main-menu-toggle-button&quot;,&quot;modifierName&quot;:&quot;menu-active&quot;},{&quot;modifierType&quot;:&quot;toggle-modifier&quot;,&quot;interactionScope&quot;:&quot;document&quot;,&quot;interactionTarget&quot;:&quot;body&quot;,&quot;modifierName&quot;:&quot;menu-active&quot;}]" aria-haspopup="true" aria-expanded="false" {% if getComponentFieldValue('ae3580df-0054-4944-90f8-e2736dacde2c') == '' %}aria-label{% else %}aria-label="{{ getComponentFieldValue("ae3580df-0054-4944-90f8-e2736dacde2c") | raw }}"{% endif %} data-coh-settings='{ "sm":{"buttonAnimation":[{"animationType":"blind","animationScope":"component","animationDirection":"left","animationEasing":"easeInOutCubic","animationTarget":".main-menu-wrapper","animationDuration":200}]},"xl":{"buttonAnimation":[{"animationType":"none"}]} }' type="button"> </button> {{ attach_library('cohesion/coh_element_container') }} <div class="coh-container main-menu-wrapper coh-ce-cpt_site_header-4bd5ea3e" > {{ attach_library('cohesion/coh_element_container') }} <div class="coh-container coh-ce-cpt_site_header-cae467c8" > {{ attach_library('cohesion/coh_element_container') }} <nav class="coh-container main-menu coh-ce-cpt_site_header-85f5d826" > {{ attach_library('cohesion/coh_element_drupal_menu') }} {{ render_menu('main', 'menu_tpl_main_navigation', false, 1) }} </nav> {{ renderComponent("cpt_utilities_bar_vertical", true, _context, [], "efe780d1-dc14-4086-b2a2-58ea8bf97f14", "")  }} </div> </div> </div> {{ attach_library('cohesion/coh_element_container') }} <div class="coh-container coh-ce-cpt_site_header-a309120d" > {{ attach_library('cohesion/global_libraries.jquery_ui_effect_blind') }} <button class="coh-button search-toggle-button coh-ce-cpt_site_header-df22f363 coh-interaction" data-interaction-modifiers="[{&quot;modifierType&quot;:&quot;toggle-modifier-accessible-collapsed&quot;,&quot;interactionScope&quot;:&quot;component&quot;,&quot;modifierName&quot;:&quot;search-active&quot;,&quot;interactionTarget&quot;:&quot;.search-toggle-button&quot;}]" aria-haspopup="true" aria-expanded="false" aria-label="Show search" data-coh-settings='{ "xl":{"buttonAnimation":[{"animationType":"blind","animationScope":"component","animationDirection":"up","animationEasing":"easeInOutCubic","animationDuration":200,"animationTarget":".search-wrapper"}]} }' type="button"> </button> {{ attach_library('cohesion/coh_element_container') }} <div class="coh-container search-wrapper coh-ce-cpt_site_header-f7fc4a4" > {{ attach_library('cohesion/coh_element_container') }} <div class="coh-container coh-container-boxed" > {% set block_name %}searchform{% endset %} <div class="coh-block coh-style-search-block"> {{ drupal_block(block_name) }} </div> </div> </div> </div> </div> </header> {{ attach_library('cohesion/coh_element_container') }} <div class="coh-container ssa-component coh-component ssa-component-instance-{{componentUuid}} coh-component-instance-{{componentUuid}}" data-coh-match-heights="{&quot;xl&quot;:{&quot;target&quot;:&quot;site-header.header-position--fixed&quot;,&quot;children&quot;:false}}" > </div> 
+{% set compiledCSS %}<style>.{{ coh_instance_class }}.coh-ce-cpt_site_header-fdfdb89e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 0.5rem;
+  -webkit-flex-basis: 0;
+      -ms-flex-preferred-size: 0;
+          flex-basis: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+{% if getComponentFieldValue("15781c68-34fb-470d-aa37-568c76107d4e") is not empty %}   {% if getComponentFieldValue("15781c68-34fb-470d-aa37-568c76107d4e") is not empty %} min-width: {{ getComponentFieldValue("15781c68-34fb-470d-aa37-568c76107d4e") | raw }}px;{% endif %}{% endif %}
+}
+@media (max-width: 1023px) {
+  .{{ coh_instance_class }}.coh-ce-cpt_site_header-fdfdb89e {
+    margin-right: 0;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+{% if getComponentFieldValue("e24fd2bd-e87a-41ee-a91a-e5eef8f7d6d7") is not empty %}     {% if getComponentFieldValue("e24fd2bd-e87a-41ee-a91a-e5eef8f7d6d7") is not empty %} min-width: {{ getComponentFieldValue("e24fd2bd-e87a-41ee-a91a-e5eef8f7d6d7") | raw }}px;{% endif %}{% endif %}
+  }
+}
+.{{ coh_instance_class }}.coh-ce-cpt_site_header-fdfdb89e:after {
+  margin-right: auto;
+}
+.menu-position-desktop--left .{{ coh_instance_class }}.coh-ce-cpt_site_header-fdfdb89e {
+  -webkit-flex-basis: auto;
+      -ms-flex-preferred-size: auto;
+          flex-basis: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+.{{ coh_instance_class }}.coh-ce-cpt_site_header-b8f9e4d0 {
+  margin-right: auto;
+{% if getComponentFieldValue("15781c68-34fb-470d-aa37-568c76107d4e") is not empty %}   {% if getComponentFieldValue("15781c68-34fb-470d-aa37-568c76107d4e") is not empty %} width: {{ getComponentFieldValue("15781c68-34fb-470d-aa37-568c76107d4e") | raw }}px;{% endif %}{% endif %}
+}
+@media (max-width: 1023px) {
+  .{{ coh_instance_class }}.coh-ce-cpt_site_header-b8f9e4d0 {
+    margin-right: 0;
+{% if getComponentFieldValue("e24fd2bd-e87a-41ee-a91a-e5eef8f7d6d7") is not empty %}     {% if getComponentFieldValue("e24fd2bd-e87a-41ee-a91a-e5eef8f7d6d7") is not empty %} width: {{ getComponentFieldValue("e24fd2bd-e87a-41ee-a91a-e5eef8f7d6d7") | raw }}px;{% endif %}{% endif %}
+  }
+}
+</style>{% endset %}{{ renderInlineStyle(compiledCSS) | raw }}

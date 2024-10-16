@@ -1,0 +1,46 @@
+{% set coh_instance_class %}{{ coh_instanceid() }}{% endset %}{{ attach_library('cohesion/global_libraries.responsiveJs') }} {{ attach_library('cohesion/global_libraries.windowscroll') }} {{ attach_library('cohesion/element_templates.link') }} {{ attach_library('cohesion/element_templates.link') }} {{ attach_library('cohesion/global_libraries.matchHeight') }} {{ attach_library('cohesion/global_libraries.parallax_scrolling') }} {{ attach_library('cohesion/global_libraries.cohMatchHeights') }} {{ attach_library('cohesion/element_templates.image') }} {{ attach_library('cohesion/coh_element_container') }} <article class="coh-container ssa-component coh-component ssa-component-instance-{{componentUuid}} coh-component-instance-{{componentUuid}} {{ getComponentFieldValue("54aefa27-44dc-43b1-a267-a1d5397059f8") | raw }} {{ getComponentFieldValue("98659709-d9a9-47a5-8202-72d67ea5dfef") | raw }} {{ getComponentFieldValue("8fa57d86-4551-4b78-a12a-6c106d1a459c") | raw }} {{ getComponentFieldValue("7ee6f90d-5a4a-4c25-bcbd-4717c31e5bdc") | raw }} {{ getComponentFieldValue("a4fca955-d7df-4d02-a9e2-4d51b45c4031") | raw }} {{ getComponentFieldValue("1c2f6178-5a98-45c5-b241-e51ad7631619") | raw }} {{ getComponentFieldValue("6647fca7-edcb-4e5b-83a8-5ee8b16ae1ce") | raw }} {{ getComponentFieldValue("68dc6698-d44e-4f67-b695-7238c9864bce") | raw }} {{ coh_instance_class }} coh-ce-cpt_price_card-47a4c85a" > {{ attach_library('cohesion/coh_element_container') }} <div class="coh-container coh-ce-cpt_price_card-6c50e96c" > <{{ getComponentFieldValue("a9cfbab7-f05e-485a-93b6-e518205372e6") | raw }} class="coh-heading coh-style-heading-4-size coh-ce-cpt_price_card-13c60bc1" > {{ attach_library('cohesion/coh_element_link') }} <a href="{% set entityId %}{{ getComponentFieldValue("ed13f81b-88f8-4b20-b43b-79a9e7c33117") | raw }}{% endset %}{% if entityId != '' %}{{ path_renderer(entityId) }}{% endif %}" class="coh-link card-link {{ getComponentFieldValue("54aefa27-44dc-43b1-a267-a1d5397059f8") | raw }} {{ getComponentFieldValue("98659709-d9a9-47a5-8202-72d67ea5dfef") | raw }} {{ getComponentFieldValue("8fa57d86-4551-4b78-a12a-6c106d1a459c") | raw }} {{ getComponentFieldValue("7ee6f90d-5a4a-4c25-bcbd-4717c31e5bdc") | raw }} coh-ce-cpt_price_card-12c4107e" target="_self" {% if getComponentFieldValue('3acd5de7-afa5-4fbc-85e5-c95ed84d3463') == '' %}aria-label{% else %}aria-label="{{ getComponentFieldValue("3acd5de7-afa5-4fbc-85e5-c95ed84d3463") | raw }}"{% endif %} > {{ getComponentFieldValue("4b450a69-093a-4db6-84c2-a2e22748a6be") | raw }}    </a> </{{ getComponentFieldValue("a9cfbab7-f05e-485a-93b6-e518205372e6") | raw }}> {% set paragraphContent %}{{ getComponentFieldValue("6346e8eb-aa36-40db-83cd-6f631474b3cf") | raw }}{% endset %} <p class="coh-paragraph" {% if user.hasPermission('access visual page builder') and component_content is not defined %} data-ssa-field-uuid="{{ render_field_uuid('6346e8eb-aa36-40db-83cd-6f631474b3cf', 'Array') }}" data-ssa-form-type="form-input"{% endif %} > {{- paragraphContent | nl2br -}} </p> <ul class="coh-list-container coh-unordered-list coh-style-tick-list coh-ce-cpt_price_card-6eb4d95c"> {% for coh_repeater_val in getComponentFieldValue('a98b9965-3bb9-4ccc-8093-511df0a13503') %} <li class="coh-list-item"> {{ getComponentFieldValue("e432be38-4b8b-45c3-9a56-22db9b06f8f9") | raw }} </li> {% endfor %} </ul> {% set inlineElementContent %}{% endset %} <span class="coh-inline-element price-detail coh-ce-cpt_price_card-b2503be0"> {{- inlineElementContent -}} {% set inlineElementContent %}{{ getComponentFieldValue("e29ca323-9b81-4cb0-979a-ee75532029fb") | raw }}{% endset %} <span class="coh-inline-element coh-ce-cpt_price_card-1775711d"> {{- inlineElementContent -}} </span> {% set inlineElementContent %}{{ getComponentFieldValue("82d52874-6e46-4f4d-8e06-7c7fe9e2a8a7") | raw }}{% endset %} <span class="coh-inline-element coh-ce-cpt_price_card-77973a3b"> {{- inlineElementContent -}} </span> </span> {% set inlineElementContent %}{{ getComponentFieldValue("03defb60-0292-4a3b-88e8-08faaa418388") | raw }}{% endset %} <span class="coh-inline-element term coh-ce-cpt_price_card-5d509b1"> {{- inlineElementContent -}} </span> {% set inlineElementContent %}{{ getComponentFieldValue("3acd5de7-afa5-4fbc-85e5-c95ed84d3463") | raw }}{% endset %} <span class="coh-inline-element fake-button coh-style-fake-button coh-ce-cpt_price_card-d17cb34a" aria-hidden="true"> {{- inlineElementContent -}} </span> </div> {{ attach_library('cohesion/coh_element_image') }} <img class="coh-image image coh-ce-cpt_price_card-5289bcbf coh-image-xl coh-image-align-left-xl" src="{% set src %}{{ getComponentFieldValue("737ae208-338a-4399-b73e-4bea4ed59267") | raw }}{% endset %}{% set imagestyle %}coh_x_small{% endset %}{{ cohesion_image_style(src, imagestyle) }}" {% if getComponentFieldValue('72b20bdb-a083-4dd9-8dc3-fdc6a5738095') == '' %}alt{% else %}alt="{{ getComponentFieldValue("72b20bdb-a083-4dd9-8dc3-fdc6a5738095") | raw }}"{% endif %} /> </article> 
+{% set compiledCSS %}<style>.{{ coh_instance_class }}.coh-ce-cpt_price_card-47a4c85a {
+{% if getComponentFieldValue("7deae8c4-b1e3-44d7-97cf-134dda420fb1") is not empty %}   {% if getComponentFieldValue("7deae8c4-b1e3-44d7-97cf-134dda420fb1") is not empty %} background-color: {{ getComponentFieldValue("7deae8c4-b1e3-44d7-97cf-134dda420fb1") | raw }};{% endif %}{% endif %}
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  position: relative;
+}
+.border.{{ coh_instance_class }}.coh-ce-cpt_price_card-47a4c85a {
+  border-width: 0.0625rem;
+  border-style: solid;
+{% if getComponentFieldValue("c0cca217-2dbc-4e94-b91c-ce150e909203") is not empty %}   {% if getComponentFieldValue("c0cca217-2dbc-4e94-b91c-ce150e909203") is not empty %} border-color: {{ getComponentFieldValue("c0cca217-2dbc-4e94-b91c-ce150e909203") | raw }};{% endif %}{% endif %}
+}
+.coh-style-card-text-colored-background.{{ coh_instance_class }}.coh-ce-cpt_price_card-47a4c85a {
+  color: rgb(255, 255, 255);
+}
+.coh-style-card-text-colored-background.{{ coh_instance_class }}.coh-ce-cpt_price_card-47a4c85a li:before {
+  background-color: rgb(0, 0, 0);
+}
+.{{ coh_instance_class }}.coh-ce-cpt_price_card-47a4c85a .image {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+}
+.{{ coh_instance_class }}.coh-ce-cpt_price_card-47a4c85a .price-detail {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+}
+.{{ coh_instance_class }}.coh-ce-cpt_price_card-47a4c85a .term {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+}
+</style>{% endset %}{{ renderInlineStyle(compiledCSS) | raw }}

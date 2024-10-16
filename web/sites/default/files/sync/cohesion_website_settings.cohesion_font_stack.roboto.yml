@@ -1,10 +1,10 @@
-uuid: 30178220-8ab3-4f15-8db2-74f58cf5ddf3
+uuid: 3ef0e76c-447c-41cf-854a-6d926d97189d
 langcode: en
 status: true
 dependencies: {  }
 label: Roboto
 id: roboto
-json_values: '{"inuse":false,"systemfont":false,"link":true,"name":"Roboto","uid":"roboto","variable":"$coh-font-roboto","class":".coh-font-roboto","fontStack":"\"Roboto\", sans-serif","smoothing":{"firefox":true,"webkit":true},"locked":false}'
+json_values: '{"inuse":true,"systemfont":false,"fontStack":"''Roboto'', sans-serif","name":"Roboto","uid":"roboto","class":".coh-font-roboto","variable":"$coh-font-roboto","smoothing":{"firefox":true,"webkit":true},"link":true}'
 json_mapper: '{}'
 last_entity_update: entityupdate_0043
 locked: false

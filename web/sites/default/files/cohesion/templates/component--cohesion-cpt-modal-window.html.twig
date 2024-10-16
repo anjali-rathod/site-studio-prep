@@ -1,0 +1,29 @@
+{% set coh_instance_class %}{{ coh_instanceid() }}{% endset %}{{ attach_library('cohesion/global_libraries.responsiveJs') }} {{ attach_library('cohesion/global_libraries.windowscroll') }} {{ attach_library('cohesion/element_templates.link') }} {{ attach_library('cohesion/global_libraries.matchHeight') }} {{ attach_library('cohesion/global_libraries.parallax_scrolling') }} {{ attach_library('cohesion/global_libraries.cohMatchHeights') }} {{ attach_library('cohesion/element_templates.modal') }} {{ attach_library('cohesion/coh_element_modal') }} {{ attach_library('cohesion/global_libraries.jquery_ui_effect_fade') }} {{ attach_library('cohesion/global_libraries.jquery_ui_effect_fade') }} <div class="coh-modal ssa-component coh-component ssa-component-instance-{{componentUuid}} coh-component-instance-{{componentUuid}} coh-modal-center coh-modal-close-top-right {{ coh_instance_class }} coh-ce-cpt_modal_window-c9275189" {% if getComponentFieldValue('8ca7519a-ee05-484a-89b4-177062eabe21') == '' %}{% else %}id="{{ getComponentFieldValue("8ca7519a-ee05-484a-89b4-177062eabe21") | raw }}"{% endif %} data-coh-modal-animation='{ "effect" : "fade" ,"easing" : "easeInOutCubic" ,"duration" : 200 }' data-coh-modal-delay-open='' data-coh-modal-delay-close='' data-coh-modal-overlay data-modal {% if getComponentFieldValue('f5062934-cf77-4228-b5b2-5dbb5903f3dd') == true %}data-modal-auto data-modal-auto-persist{% endif %} data-modal-manual-close hidden style="display: none;"> <div class="coh-modal-overlay"  data-modal-close-btn  style="display: none;"></div> <div class="coh-modal-inner {{ getComponentFieldValue("77624ceb-d988-4527-a528-5ac6c6892e65") | raw }}" data-modal-document tabindex="0" style="display: none;"> {{ attach_library('cohesion/coh_element_container') }} <div class="coh-container content-wrapper coh-ce-cpt_modal_window-50d5c6fb" > {{ getComponentFieldValue("a6fa3724-12fc-4e38-8934-ce0a483075ea") }} </div> <div class="coh-modal-close-wrapper" > <button aria-label="Close" class="coh-modal-close-button {{ getComponentFieldValue("132d3714-79f8-4cf8-91ac-baa68993fa32") | raw }}" data-autofocus data-modal-close-btn></button> </div> </div> </div> 
+{% set compiledCSS %}<style>.{{ coh_instance_class }}.coh-ce-cpt_modal_window-c9275189 .coh-modal-inner {
+{% if getComponentFieldValue("286c0fc8-a11b-43aa-ae7a-2dc25d90e243") is not empty %}   {% if getComponentFieldValue("286c0fc8-a11b-43aa-ae7a-2dc25d90e243") is not empty %} background-color: {{ getComponentFieldValue("286c0fc8-a11b-43aa-ae7a-2dc25d90e243") | raw }};{% endif %}{% endif %}
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+@media (max-width: 1169px) {
+  .{{ coh_instance_class }}.coh-ce-cpt_modal_window-c9275189 .coh-modal-inner {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+}
+.{{ coh_instance_class }}.coh-ce-cpt_modal_window-c9275189 .coh-modal-inner.modal-small {
+  max-width: 35rem;
+}
+.{{ coh_instance_class }}.coh-ce-cpt_modal_window-c9275189 .coh-modal-inner.modal-medium {
+  max-width: 50rem;
+}
+.{{ coh_instance_class }}.coh-ce-cpt_modal_window-c9275189 .coh-modal-inner.modal-large {
+  max-width: 75rem;
+}
+.{{ coh_instance_class }}.coh-ce-cpt_modal_window-c9275189 .coh-modal-inner.modal-fullscreen {
+  max-width: none;
+  width: 100%;
+  height: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+</style>{% endset %}{{ renderInlineStyle(compiledCSS) | raw }}
