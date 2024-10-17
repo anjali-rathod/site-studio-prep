@@ -1,4 +1,42 @@
-.coh-style-slider-flex-layout .slick-track {
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* __string_template__2defeccd45490e785ce5a32cf7f09590 */
+class __TwigTemplate_2d08e2acdb0966703f3dbd0490411390 extends Template
+{
+    private $source;
+    private $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+        $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
+        $this->checkSecurity();
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 2
+        echo ".coh-style-slider-flex-layout .slick-track {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -472,7 +510,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f007";
+  content: \"\\f007\";
   font-family: icomoon;
 }
 .coh-style-contact-information li.place-company:before {
@@ -483,7 +521,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f1ad";
+  content: \"\\f1ad\";
   font-family: icomoon;
 }
 .coh-style-contact-information li.place-address:before {
@@ -494,7 +532,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f041";
+  content: \"\\f041\";
   font-family: icomoon;
 }
 .coh-style-contact-information li.place-telephone:before {
@@ -505,7 +543,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f098";
+  content: \"\\f098\";
   font-family: icomoon;
 }
 .coh-style-contact-information li.place-email:before {
@@ -516,7 +554,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f0e0";
+  content: \"\\f0e0\";
   font-family: icomoon;
 }
 .coh-style-header-colored-theme {
@@ -830,7 +868,7 @@
   font-weight: normal;
   text-transform: none;
   pointer-events: none;
-  content: "\f002";
+  content: \"\\f002\";
   font-family: icomoon;
   position: absolute;
   font-size: 1.5rem;
@@ -889,7 +927,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f054";
+  content: \"\\f054\";
   font-family: icomoon;
   padding-left: 0.375rem;
   font-size: 0.625rem;
@@ -929,7 +967,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f054";
+  content: \"\\f054\";
   font-family: icomoon;
   font-size: 0.75rem;
   padding-left: 0.5rem;
@@ -996,7 +1034,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin-left: auto;
-  content: "\f078";
+  content: \"\\f078\";
   font-family: icomoon;
   -webkit-transform: rotateZ(0deg);
       -ms-transform: rotate(0deg);
@@ -1112,7 +1150,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin-left: auto;
-  content: "\f078";
+  content: \"\\f078\";
   font-family: icomoon;
   -webkit-transform: rotateZ(0deg);
       -ms-transform: rotate(0deg);
@@ -1228,7 +1266,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin-left: auto;
-  content: "\f078";
+  content: \"\\f078\";
   font-family: icomoon;
   -webkit-transform: rotateZ(0deg);
       -ms-transform: rotate(0deg);
@@ -1302,7 +1340,7 @@
   background-color: rgb(242, 242, 242);
 }
 .coh-style-modal-close-button-light:before, .coh-style-modal-close-button-dark:before, .coh-style-modal-close-button-color:before {
-  content: "✕";
+  content: \"✕\";
 }
 .coh-style-modal-close-button-light:hover, .coh-style-modal-close-button-dark:hover, .coh-style-modal-close-button-color:hover {
   color: rgb(26, 137, 201);
@@ -1365,7 +1403,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f053";
+  content: \"\\f053\";
   font-family: icomoon;
   color: rgb(255, 255, 255);
   font-size: 1rem;
@@ -1388,7 +1426,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f054";
+  content: \"\\f054\";
   font-family: icomoon;
 }
 .coh-style-modal-open-button-light, .coh-style-modal-open-button-color, .coh-style-modal-open-button-dark {
@@ -1549,7 +1587,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f078";
+  content: \"\\f078\";
   font-family: icomoon;
   font-size: 0.75rem;
   padding-left: 0.5rem;
@@ -1563,7 +1601,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f077";
+  content: \"\\f077\";
   font-family: icomoon;
 }
 .coh-style-read-more-button-dark {
@@ -1599,7 +1637,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f078";
+  content: \"\\f078\";
   font-family: icomoon;
   font-size: 0.75rem;
   padding-left: 0.5rem;
@@ -1613,7 +1651,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f077";
+  content: \"\\f077\";
   font-family: icomoon;
 }
 .coh-style-card-text-colored-background {
@@ -1698,7 +1736,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f078";
+  content: \"\\f078\";
   font-family: icomoon;
   font-size: 0.75rem;
   padding-left: 0.5rem;
@@ -1712,7 +1750,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f077";
+  content: \"\\f077\";
   font-family: icomoon;
 }
 .coh-style-read-more {
@@ -1737,7 +1775,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f078";
+  content: \"\\f078\";
   font-family: icomoon;
   font-size: 0.75rem;
   padding-left: 0.25rem;
@@ -1750,7 +1788,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f077";
+  content: \"\\f077\";
   font-family: icomoon;
 }
 .coh-style-heading-xl {
@@ -2124,7 +2162,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f054";
+  content: \"\\f054\";
   font-family: icomoon;
   padding-left: 0.375rem;
   font-size: 0.625rem;
@@ -2164,7 +2202,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f054";
+  content: \"\\f054\";
   font-family: icomoon;
   font-size: 0.75rem;
   padding-left: 0.5rem;
@@ -2205,7 +2243,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f054";
+  content: \"\\f054\";
   font-family: icomoon;
   font-size: 0.75rem;
   padding-left: 0.5rem;
@@ -2246,7 +2284,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f054";
+  content: \"\\f054\";
   font-family: icomoon;
   font-size: 0.75rem;
   padding-left: 0.5rem;
@@ -2266,7 +2304,7 @@
   content: normal;
 }
 .coh-style-breadcrumbs li:after {
-  content: "/";
+  content: \"/\";
   font-size: 0.75rem;
   padding-right: 0.375rem;
   padding-left: 0.375rem;
@@ -2310,7 +2348,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f04b";
+  content: \"\\f04b\";
   font-family: icomoon;
   color: rgb(255, 255, 255);
   font-size: 1.5rem;
@@ -2358,7 +2396,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f04b";
+  content: \"\\f04b\";
   font-family: icomoon;
   font-size: 1rem;
 }
@@ -2370,7 +2408,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f04c";
+  content: \"\\f04c\";
   font-family: icomoon;
   font-size: 1rem;
 }
@@ -2382,7 +2420,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f01e";
+  content: \"\\f01e\";
   font-family: icomoon;
   font-size: 1rem;
 }
@@ -2394,7 +2432,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f026";
+  content: \"\\f026\";
   font-family: icomoon;
   font-size: 1.25rem;
 }
@@ -2406,7 +2444,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f028";
+  content: \"\\f028\";
   font-family: icomoon;
   font-size: 1.25rem;
 }
@@ -2418,7 +2456,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f065";
+  content: \"\\f065\";
   font-family: icomoon;
   font-size: 1rem;
 }
@@ -2430,7 +2468,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f065";
+  content: \"\\f065\";
   font-family: icomoon;
   font-size: 1rem;
 }
@@ -2551,7 +2589,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f00c";
+  content: \"\\f00c\";
   font-family: icomoon;
   color: rgb(255, 255, 255);
   margin-top: 0.1875rem;
@@ -2620,7 +2658,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f09a";
+  content: \"\\f09a\";
   font-family: icomoon;
   color: rgb(255, 255, 255);
   font-size: 1rem;
@@ -2859,7 +2897,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  content: "";
+  content: \"\";
   z-index: 1;
 }
 .coh-ce-cpt_content_card-92be551f {
@@ -3273,7 +3311,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  content: "";
+  content: \"\";
   z-index: 1;
 }
 .coh-ce-cpt_horizontal_content_card-92be551f {
@@ -3334,7 +3372,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  content: "";
+  content: \"\";
   z-index: 2;
 }
 .coh-ce-cpt_impact_card-38bc85ac {
@@ -3367,7 +3405,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  content: "";
+  content: \"\";
   z-index: 1;
 }
 .coh-ce-cpt_linked_feature_card-92be551f {
@@ -3438,7 +3476,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  content: "";
+  content: \"\";
   z-index: 1;
 }
 .coh-ce-cpt_price_card-6eb4d95c {
@@ -3485,7 +3523,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  content: "";
+  content: \"\";
   height: 100%;
   width: 100%;
   z-index: 1;
@@ -3947,7 +3985,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f0c9";
+  content: \"\\f0c9\";
   font-family: icomoon;
 }
 .menu-active.coh-ce-cpt_site_header-f9afdd26:before {
@@ -3958,7 +3996,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f00d";
+  content: \"\\f00d\";
   font-family: icomoon;
 }
 .menu-active.coh-ce-cpt_site_header-f9afdd26:after {
@@ -3975,7 +4013,7 @@
 }
 @media (max-width: 1023px) {
   .menu-active.coh-ce-cpt_site_header-f9afdd26:after {
-    content: "";
+    content: \"\";
   }
 }
 .coh-ce-cpt_site_header-4bd5ea3e {
@@ -4077,7 +4115,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f069";
+  content: \"\\f069\";
   font-family: icomoon;
 }
 .coh-ce-cpt_slide_item-2ee1ff76 {
@@ -4151,7 +4189,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f09a";
+  content: \"\\f09a\";
   font-family: icomoon;
 }
 .twitter.coh-ce-cpt_social_links-7fba6170:before {
@@ -4162,7 +4200,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f099";
+  content: \"\\f099\";
   font-family: icomoon;
 }
 .linkedin.coh-ce-cpt_social_links-7fba6170:before {
@@ -4173,7 +4211,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f0e1";
+  content: \"\\f0e1\";
   font-family: icomoon;
 }
 .youtube.coh-ce-cpt_social_links-7fba6170:before {
@@ -4184,7 +4222,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f16a";
+  content: \"\\f16a\";
   font-family: icomoon;
 }
 .vimeo.coh-ce-cpt_social_links-7fba6170:before {
@@ -4195,7 +4233,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f27d";
+  content: \"\\f27d\";
   font-family: icomoon;
 }
 .instagram.coh-ce-cpt_social_links-7fba6170:before {
@@ -4206,7 +4244,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f16d";
+  content: \"\\f16d\";
   font-family: icomoon;
 }
 .medium.coh-ce-cpt_social_links-7fba6170:before {
@@ -4217,7 +4255,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f23a";
+  content: \"\\f23a\";
   font-family: icomoon;
 }
 .pinterest.coh-ce-cpt_social_links-7fba6170:before {
@@ -4228,7 +4266,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f231";
+  content: \"\\f231\";
   font-family: icomoon;
 }
 .rss.coh-ce-cpt_social_links-7fba6170:before {
@@ -4239,7 +4277,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f09e";
+  content: \"\\f09e\";
   font-family: icomoon;
 }
 .behance.coh-ce-cpt_social_links-7fba6170:before {
@@ -4250,7 +4288,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f1b4";
+  content: \"\\f1b4\";
   font-family: icomoon;
 }
 .drupal.coh-ce-cpt_social_links-7fba6170:before {
@@ -4261,7 +4299,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f1a9";
+  content: \"\\f1a9\";
   font-family: icomoon;
 }
 .github.coh-ce-cpt_social_links-7fba6170:before {
@@ -4272,7 +4310,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f09b";
+  content: \"\\f09b\";
   font-family: icomoon;
 }
 .xing.coh-ce-cpt_social_links-7fba6170:before {
@@ -4283,7 +4321,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f168";
+  content: \"\\f168\";
   font-family: icomoon;
 }
 .bitbucket.coh-ce-cpt_social_links-7fba6170:before {
@@ -4294,7 +4332,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f171";
+  content: \"\\f171\";
   font-family: icomoon;
 }
 .whatsapp.coh-ce-cpt_social_links-7fba6170:before {
@@ -4305,7 +4343,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f232";
+  content: \"\\f232\";
   font-family: icomoon;
 }
 .slideshare.coh-ce-cpt_social_links-7fba6170:before {
@@ -4316,7 +4354,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f1e7";
+  content: \"\\f1e7\";
   font-family: icomoon;
 }
 .flickr.coh-ce-cpt_social_links-7fba6170:before {
@@ -4327,7 +4365,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f16e";
+  content: \"\\f16e\";
   font-family: icomoon;
 }
 .vkontakte.coh-ce-cpt_social_links-7fba6170:before {
@@ -4338,7 +4376,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f189";
+  content: \"\\f189\";
   font-family: icomoon;
 }
 .tumblr.coh-ce-cpt_social_links-7fba6170:before {
@@ -4349,7 +4387,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f173";
+  content: \"\\f173\";
   font-family: icomoon;
 }
 .coh-ce-cpt_social_links_card-849e44df {
@@ -4371,7 +4409,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f09a";
+  content: \"\\f09a\";
   font-family: icomoon;
 }
 .twitter.coh-ce-cpt_social_links_card-bb596a78:before {
@@ -4382,7 +4420,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f099";
+  content: \"\\f099\";
   font-family: icomoon;
 }
 .linkedin.coh-ce-cpt_social_links_card-bb596a78:before {
@@ -4393,7 +4431,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f0e1";
+  content: \"\\f0e1\";
   font-family: icomoon;
 }
 .youtube.coh-ce-cpt_social_links_card-bb596a78:before {
@@ -4404,7 +4442,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f16a";
+  content: \"\\f16a\";
   font-family: icomoon;
 }
 .vimeo.coh-ce-cpt_social_links_card-bb596a78:before {
@@ -4415,7 +4453,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f27d";
+  content: \"\\f27d\";
   font-family: icomoon;
 }
 .instagram.coh-ce-cpt_social_links_card-bb596a78:before {
@@ -4426,7 +4464,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f16d";
+  content: \"\\f16d\";
   font-family: icomoon;
 }
 .medium.coh-ce-cpt_social_links_card-bb596a78:before {
@@ -4437,7 +4475,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f23a";
+  content: \"\\f23a\";
   font-family: icomoon;
 }
 .pinterest.coh-ce-cpt_social_links_card-bb596a78:before {
@@ -4448,7 +4486,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f231";
+  content: \"\\f231\";
   font-family: icomoon;
 }
 .rss.coh-ce-cpt_social_links_card-bb596a78:before {
@@ -4459,7 +4497,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f09e";
+  content: \"\\f09e\";
   font-family: icomoon;
 }
 .behance.coh-ce-cpt_social_links_card-bb596a78:before {
@@ -4470,7 +4508,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f1b4";
+  content: \"\\f1b4\";
   font-family: icomoon;
 }
 .drupal.coh-ce-cpt_social_links_card-bb596a78:before {
@@ -4481,7 +4519,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f1a9";
+  content: \"\\f1a9\";
   font-family: icomoon;
 }
 .github.coh-ce-cpt_social_links_card-bb596a78:before {
@@ -4492,7 +4530,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f09b";
+  content: \"\\f09b\";
   font-family: icomoon;
 }
 .xing.coh-ce-cpt_social_links_card-bb596a78:before {
@@ -4503,7 +4541,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f168";
+  content: \"\\f168\";
   font-family: icomoon;
 }
 .bitbucket.coh-ce-cpt_social_links_card-bb596a78:before {
@@ -4514,7 +4552,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f171";
+  content: \"\\f171\";
   font-family: icomoon;
 }
 .whatsapp.coh-ce-cpt_social_links_card-bb596a78:before {
@@ -4525,7 +4563,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f232";
+  content: \"\\f232\";
   font-family: icomoon;
 }
 .slideshare.coh-ce-cpt_social_links_card-bb596a78:before {
@@ -4536,7 +4574,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f1e7";
+  content: \"\\f1e7\";
   font-family: icomoon;
 }
 .flickr.coh-ce-cpt_social_links_card-bb596a78:before {
@@ -4547,7 +4585,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f16e";
+  content: \"\\f16e\";
   font-family: icomoon;
 }
 .vkontakte.coh-ce-cpt_social_links_card-bb596a78:before {
@@ -4558,7 +4596,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f189";
+  content: \"\\f189\";
   font-family: icomoon;
 }
 .tumblr.coh-ce-cpt_social_links_card-bb596a78:before {
@@ -4569,7 +4607,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f173";
+  content: \"\\f173\";
   font-family: icomoon;
 }
 .coh-ce-cpt_stat_card-b76fe74a {
@@ -4949,7 +4987,7 @@
   font-variant: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "\f107";
+  content: \"\\f107\";
   font-family: icomoon;
   -webkit-transition: 200ms ease-in-out transform;
   transition: 200ms ease-in-out transform;
@@ -5080,3 +5118,49 @@
   height: 100%;
 }
 
+";
+    }
+
+    public function getTemplateName()
+    {
+        return "__string_template__2defeccd45490e785ce5a32cf7f09590";
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  39 => 2,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("", "__string_template__2defeccd45490e785ce5a32cf7f09590", "");
+    }
+    
+    public function checkSecurity()
+    {
+        static $tags = array();
+        static $filters = array();
+        static $functions = array();
+
+        try {
+            $this->sandbox->checkSecurity(
+                [],
+                [],
+                []
+            );
+        } catch (SecurityError $e) {
+            $e->setSourceContext($this->source);
+
+            if ($e instanceof SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
+                $e->setTemplateLine($tags[$e->getTagName()]);
+            } elseif ($e instanceof SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
+                $e->setTemplateLine($filters[$e->getFilterName()]);
+            } elseif ($e instanceof SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
+                $e->setTemplateLine($functions[$e->getFunctionName()]);
+            }
+
+            throw $e;
+        }
+
+    }
+}
