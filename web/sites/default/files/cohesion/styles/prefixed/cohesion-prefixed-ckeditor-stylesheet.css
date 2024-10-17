@@ -63,7 +63,8 @@
 @font-face {
   font-family: "icomoon";
   src: url("/sites/default/files/cohesion/icomoon.eot");
-  src: url("/sites/default/files/cohesion/icomoon.eot?#iefix") format("embedded-opentype"), url("/sites/default/files/cohesion/icomoon.woff2") format("woff2"), url("/sites/default/files/cohesion/icomoon.woff") format("woff"), url("/sites/default/files/cohesion/icomoon.ttf") format("truetype");
+  src: url("/sites/default/files/cohesion/icomoon.eot?#iefix") format("embedded-opentype"), url("/sites/default/files/cohesion/icomoon.woff") format("woff"), url("/sites/default/files/cohesion/icomoon.ttf") format("truetype");
+  font-display: block;
 }
 .ssa-ck-content :root {
   --ssa-font-stacks-arial: Arial, 'Helvetica Neue', Helvetica, sans-serif;
