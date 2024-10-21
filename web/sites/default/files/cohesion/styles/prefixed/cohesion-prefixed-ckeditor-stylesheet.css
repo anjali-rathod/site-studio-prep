@@ -6625,4 +6625,25 @@
 .ssa-ck-content .coh-style-slider-pagination li button:hover {
   background-color: rgb(112, 195, 233);
 }
+.ssa-ck-content .coh-style-flex-direction {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.ssa-ck-content .coh-style-flex-left-to-right {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.ssa-ck-content .coh-style-flex-right-to-left {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
 

@@ -48,6 +48,7 @@ module:
   search: 0
   serialization: 0
   shortcut: 0
+  site_studio_webform: 0
   standard: 0
   system: 0
   taxonomy: 0
@@ -58,6 +59,9 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  webform: 0
+  webform_node: 0
+  webform_ui: 0
   views: 10
 theme:
   olivero: 0

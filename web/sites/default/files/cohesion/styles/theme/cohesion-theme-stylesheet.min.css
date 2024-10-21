@@ -2680,6 +2680,27 @@
 .coh-style-slider-pagination li button:hover {
   background-color: rgb(112, 195, 233);
 }
+.coh-style-flex-direction {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.coh-style-flex-left-to-right {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.coh-style-flex-right-to-left {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
 .move-pagination-up.coh-ce-1dc117b7-c5baa27a .slick-dots {
   top: -2rem;
 }
@@ -5078,5 +5099,63 @@
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
+}
+.coh-ce-cpt_headings_with_borders-6ba374e2 {
+  border-style: none;
+}
+.coh-ce-cpt_headings_with_borders-6ba374e2:after {
+  content: " ";
+  border-bottom-width: 0.1875rem;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(252, 151, 67);
+  display: block;
+  max-width: 50%;
+}
+.coh-ce-cpt_text_highlight-d5d87dcb {
+  border-top-width: 0.1875rem;
+  border-top-style: solid;
+  border-top-color: rgb(252, 151, 67);
+}
+.coh-ce-cpt_feature_cards-ea4928af {
+  max-width: 50%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.coh-ce-cpt_promoted_card-5170c261 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.coh-ce-cpt_promoted_card-940beae8 {
+  width: 50%;
+}
+.coh-ce-cpt_promoted_card-b25a7c9b {
+  padding-top: 1.875rem;
+  padding-right: 1.875rem;
+  padding-bottom: 1.875rem;
+  padding-left: 1.875rem;
+}
+.coh-ce-cpt_partnership_component-f2350660 {
+  width: 70%;
+  padding-right: 30px;
+}
+.coh-ce-cpt_partnership_component-bb2a6cc8 {
+  width: 30%;
+}
+.coh-ce-cpt_hero_image-76cd625 {
+  color: rgb(255, 255, 255);
+}
+.coh-ce-cpt_highlight_card-7d45654f {
+  width: 50%;
 }
 
