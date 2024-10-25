@@ -1,0 +1,19 @@
+uuid: 8451e42b-3f94-4106-afaa-0283cf22f4e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_title_article
+    - node.type.article
+id: node.article.field_title_article
+field_name: field_title_article
+entity_type: node
+bundle: article
+label: 'Title article'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
