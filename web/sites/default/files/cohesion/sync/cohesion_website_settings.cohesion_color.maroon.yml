@@ -1,0 +1,28 @@
+uuid: 01078bf3-ced4-4b4a-a7e7-618564be023d
+langcode: en
+status: true
+dependencies: {  }
+label: maroon
+id: maroon
+json_values: |
+  {
+      "link": true,
+      "value": {
+          "value": {
+              "hex": "#8e3d3d",
+              "rgba": "rgba(142, 61, 61, 1)"
+          }
+      },
+      "uid": "maroon",
+      "wysiwyg": true,
+      "name": "maroon",
+      "class": ".coh-color-maroon",
+      "variable": "$coh-color-maroon",
+      "inuse": true
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+weight: null

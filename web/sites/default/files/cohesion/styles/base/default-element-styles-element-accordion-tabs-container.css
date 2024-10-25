@@ -72,37 +72,41 @@
 }
 .coh-accordion-tabs-horizontal-left-grid > .coh-accordion-tabs-nav, .coh-accordion-tabs-horizontal-right-grid > .coh-accordion-tabs-nav, .coh-accordion-tabs-horizontal-justify-grid > .coh-accordion-tabs-nav {
   margin: 0 auto;
-  max-width: 83.75rem;
+  max-width: 84rem;
 }
-@media (max-width: 1399px) {
+@media (max-width: 1599px) {
   .coh-accordion-tabs-horizontal-left-grid > .coh-accordion-tabs-nav, .coh-accordion-tabs-horizontal-right-grid > .coh-accordion-tabs-nav, .coh-accordion-tabs-horizontal-justify-grid > .coh-accordion-tabs-nav {
-    margin: 0 auto;
-    max-width: 69.375rem;
+    max-width: none;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
 }
 @media (max-width: 1169px) {
   .coh-accordion-tabs-horizontal-left-grid > .coh-accordion-tabs-nav, .coh-accordion-tabs-horizontal-right-grid > .coh-accordion-tabs-nav, .coh-accordion-tabs-horizontal-justify-grid > .coh-accordion-tabs-nav {
-    margin: 0 auto;
-    max-width: 60.25rem;
+    max-width: none;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 }
 @media (max-width: 1023px) {
   .coh-accordion-tabs-horizontal-left-grid > .coh-accordion-tabs-nav, .coh-accordion-tabs-horizontal-right-grid > .coh-accordion-tabs-nav, .coh-accordion-tabs-horizontal-justify-grid > .coh-accordion-tabs-nav {
-    margin: 0 auto;
-    max-width: 44.25rem;
+    max-width: none;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 }
 @media (max-width: 767px) {
   .coh-accordion-tabs-horizontal-left-grid > .coh-accordion-tabs-nav, .coh-accordion-tabs-horizontal-right-grid > .coh-accordion-tabs-nav, .coh-accordion-tabs-horizontal-justify-grid > .coh-accordion-tabs-nav {
-    margin: 0 auto;
-    max-width: 31.5625rem;
+    max-width: none;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
 }
 @media (max-width: 564px) {
   .coh-accordion-tabs-horizontal-left-grid > .coh-accordion-tabs-nav, .coh-accordion-tabs-horizontal-right-grid > .coh-accordion-tabs-nav, .coh-accordion-tabs-horizontal-justify-grid > .coh-accordion-tabs-nav {
     max-width: none;
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
 }
 .coh-accordion-tabs-horizontal-left-grid > .coh-accordion-tabs-content-wrapper, .coh-accordion-tabs-horizontal-right-grid > .coh-accordion-tabs-content-wrapper, .coh-accordion-tabs-horizontal-justify-grid > .coh-accordion-tabs-content-wrapper {
@@ -142,7 +146,7 @@
 .coh-accordion-tabs > .coh-accordion-tabs-inner .coh-accordion-tabs-display-tabs-xl > .coh-accordion-tabs-content-wrapper .coh-accordion-title {
   display: none;
 }
-@media (max-width: 1399px) {
+@media (max-width: 1599px) {
   .coh-accordion-tabs-display-accordion-lg > .coh-accordion-tabs-nav {
     display: none;
   }
