@@ -1,0 +1,69 @@
+{% set coh_instance_class %}{{ coh_instanceid() }}{% endset %}{{ attach_library('cohesion/global_libraries.responsiveJs') }} {{ attach_library('cohesion/global_libraries.windowscroll') }} {{ attach_library('cohesion/element_templates.link') }} {{ attach_library('cohesion/element_templates.link') }} {{ attach_library('cohesion/global_libraries.matchHeight') }} {{ attach_library('cohesion/global_libraries.parallax_scrolling') }} {{ attach_library('cohesion/global_libraries.cohMatchHeights') }} {{ attach_library('cohesion/element_templates.image') }} {{ attach_library('cohesion/coh_element_container') }} <article class="coh-container ssa-component coh-component ssa-component-instance-{{componentUuid}} coh-component-instance-{{componentUuid}} {{ getComponentFieldValue("f8b9aba3-8cb0-4527-9d54-4cfa8ee9fbef") | raw }} {{ getComponentFieldValue("7995ec54-2ae0-4a7a-901c-136ec7d463ec") | raw }} {{ getComponentFieldValue("699d2a07-619e-4dbb-bf52-2dcddbcb9359") | raw }} {{ getComponentFieldValue("a9acdd8e-f78c-4e06-a63c-68f1d9d172c9") | raw }} {{ getComponentFieldValue("28c9c7fb-bb29-4341-9e9b-8310b86d3f9c") | raw }} {{ getComponentFieldValue("c34726ef-2be5-43bb-94b7-a4402a37ab07") | raw }} {{ getComponentFieldValue("287130d2-f632-4028-88be-a3d690fd673d") | raw }} {{ coh_instance_class }} coh-ce-cpt_profile_card-4ba94239" > {{ attach_library('cohesion/coh_element_container') }} <div class="coh-container card-content {{ getComponentFieldValue("ce361819-55b0-4e46-8bc4-63afdc22eca2") | raw }} {{ getComponentFieldValue("b2548408-63e2-43c8-8539-513f925bbb75") | raw }}" > <{{ getComponentFieldValue("324291ed-5b3d-4c8e-90f1-995e6917a454") | raw }} class="coh-heading coh-style-heading-5-size coh-ce-cpt_profile_card-70163efb" > {{ attach_library('cohesion/coh_element_link') }} <a href="{% set entityId %}{{ getComponentFieldValue("3ff27693-21e8-47b6-99ac-54e7952fb497") | raw }}{% endset %}{% if entityId != '' %}{{ path_renderer(entityId) }}{% endif %}" class="coh-link card-link coh-ce-cpt_profile_card-41b10bd" target="_self" > {{ getComponentFieldValue("51eafcb0-b535-4c87-a5fe-d7680a1cd23f") | raw }}    </a> </{{ getComponentFieldValue("324291ed-5b3d-4c8e-90f1-995e6917a454") | raw }}> {% set inlineElementContent %}{{ getComponentFieldValue("70cb0f19-ba8b-4b9c-81a1-45e791a6f789") | raw }}{% endset %} <span class="coh-inline-element coh-ce-cpt_profile_card-12f61887"> {{- inlineElementContent -}} </span> </div> {{ attach_library('cohesion/coh_element_container') }} <div class="coh-container card-image coh-ce-cpt_profile_card-59cddfc1" > {% set hideData %}{{ getComponentFieldValue('d97c8180-7736-4d2f-9c31-bd84d019076e', '') }}{% endset %} {% if hideData is null or hideData|trim != '' %} {{ attach_library('cohesion/coh_element_image') }} <img class="coh-image coh-image-responsive-xl" src="{% set src %}{{ getComponentFieldValue("d97c8180-7736-4d2f-9c31-bd84d019076e") | raw }}{% endset %}{% set imagestyle %}coh_small_square{% endset %}{{ cohesion_image_style(src, imagestyle) }}" {% if getComponentFieldValue('181c2cd1-7419-46b7-817b-3dff5f438d8f') == '' %}alt{% else %}alt="{{ getComponentFieldValue("181c2cd1-7419-46b7-817b-3dff5f438d8f") | raw }}"{% endif %} /> {% endif %} </div> </article> 
+{% set compiledCSS %}<style>.{{ coh_instance_class }}.coh-ce-cpt_profile_card-4ba94239 {
+{% if getComponentFieldValue("fead974d-d61e-4252-b1d7-903601af3efa") is not empty %}   {% if getComponentFieldValue("fead974d-d61e-4252-b1d7-903601af3efa") is not empty %} background-color: {{ getComponentFieldValue("fead974d-d61e-4252-b1d7-903601af3efa") | raw }};{% endif %}{% endif %}
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+{% if getComponentFieldValue("6bad7351-d162-4499-9ef0-3cd7c6988b8a") is not empty %}   {% if getComponentFieldValue("6bad7351-d162-4499-9ef0-3cd7c6988b8a") is not empty %} -webkit-box-flex: {{ getComponentFieldValue("6bad7351-d162-4499-9ef0-3cd7c6988b8a") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("6bad7351-d162-4499-9ef0-3cd7c6988b8a") is not empty %}   {% if getComponentFieldValue("6bad7351-d162-4499-9ef0-3cd7c6988b8a") is not empty %} -webkit-flex-grow: {{ getComponentFieldValue("6bad7351-d162-4499-9ef0-3cd7c6988b8a") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("6bad7351-d162-4499-9ef0-3cd7c6988b8a") is not empty %}       {% if getComponentFieldValue("6bad7351-d162-4499-9ef0-3cd7c6988b8a") is not empty %} -ms-flex-positive: {{ getComponentFieldValue("6bad7351-d162-4499-9ef0-3cd7c6988b8a") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("6bad7351-d162-4499-9ef0-3cd7c6988b8a") is not empty %}           {% if getComponentFieldValue("6bad7351-d162-4499-9ef0-3cd7c6988b8a") is not empty %} flex-grow: {{ getComponentFieldValue("6bad7351-d162-4499-9ef0-3cd7c6988b8a") | raw }};{% endif %}{% endif %}
+  position: relative;
+}
+.image-left.{{ coh_instance_class }}.coh-ce-cpt_profile_card-4ba94239 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.image-left.{{ coh_instance_class }}.coh-ce-cpt_profile_card-4ba94239 .card-image {
+  min-width: 5rem;
+  max-width: 9rem;
+}
+.image-left.{{ coh_instance_class }}.coh-ce-cpt_profile_card-4ba94239 .card-content {
+  padding-left: 2rem;
+}
+@media (max-width: 1169px) {
+  .image-left.{{ coh_instance_class }}.coh-ce-cpt_profile_card-4ba94239 .card-content {
+    padding-left: 1.5rem;
+  }
+}
+.image-above-left-align.{{ coh_instance_class }}.coh-ce-cpt_profile_card-4ba94239 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.image-above-left-align.{{ coh_instance_class }}.coh-ce-cpt_profile_card-4ba94239 .card-content {
+  padding-top: 2rem;
+}
+@media (max-width: 1169px) {
+  .image-above-left-align.{{ coh_instance_class }}.coh-ce-cpt_profile_card-4ba94239 .card-content {
+    padding-top: 1.5rem;
+  }
+}
+.image-above-center-align.{{ coh_instance_class }}.coh-ce-cpt_profile_card-4ba94239 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+.image-above-center-align.{{ coh_instance_class }}.coh-ce-cpt_profile_card-4ba94239 .card-content {
+  padding-top: 2rem;
+}
+@media (max-width: 1169px) {
+  .image-above-center-align.{{ coh_instance_class }}.coh-ce-cpt_profile_card-4ba94239 .card-content {
+    padding-top: 1.5rem;
+  }
+}
+.border.{{ coh_instance_class }}.coh-ce-cpt_profile_card-4ba94239 {
+  border-width: 0.0625rem;
+  border-style: solid;
+{% if getComponentFieldValue("ef34ea26-11f4-403f-a29c-109961c51cc5") is not empty %}   {% if getComponentFieldValue("ef34ea26-11f4-403f-a29c-109961c51cc5") is not empty %} border-color: {{ getComponentFieldValue("ef34ea26-11f4-403f-a29c-109961c51cc5") | raw }};{% endif %}{% endif %}
+}
+</style>{% endset %}{{ renderInlineStyle(compiledCSS) | raw }}

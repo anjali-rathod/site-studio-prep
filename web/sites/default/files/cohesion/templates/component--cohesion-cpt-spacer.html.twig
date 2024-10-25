@@ -1,0 +1,15 @@
+{% set coh_instance_class %}{{ coh_instanceid() }}{% endset %}{{ attach_library('cohesion/global_libraries.responsiveJs') }} {{ attach_library('cohesion/global_libraries.windowscroll') }} {{ attach_library('cohesion/element_templates.link') }} {{ attach_library('cohesion/global_libraries.matchHeight') }} {{ attach_library('cohesion/global_libraries.parallax_scrolling') }} {{ attach_library('cohesion/global_libraries.cohMatchHeights') }} {{ attach_library('cohesion/coh_element_container') }} <span class="coh-container ssa-component coh-component ssa-component-instance-{{componentUuid}} coh-component-instance-{{componentUuid}} {{ coh_instance_class }} coh-ce-cpt_spacer-4a6bd1e0" > </span> 
+{% set compiledCSS %}<style>{% if getComponentFieldValue("72f8059c-7ab7-417f-a980-4efa330b97a1") is not empty or getComponentFieldValue("470a86f1-ea1b-4491-8d21-a3c8ca8aa8dd") is not empty or getComponentFieldValue("f0e200c8-bd2b-4864-819a-ab0da895ce9d") is not empty %}.{{ coh_instance_class }}.coh-ce-cpt_spacer-4a6bd1e0 {
+{% if getComponentFieldValue("72f8059c-7ab7-417f-a980-4efa330b97a1") is not empty %}   {% if getComponentFieldValue("72f8059c-7ab7-417f-a980-4efa330b97a1") is not empty %} height: {{ getComponentFieldValue("72f8059c-7ab7-417f-a980-4efa330b97a1") | raw }};{% endif %}{% endif %}
+}
+@media (max-width: 1023px) {
+  .{{ coh_instance_class }}.coh-ce-cpt_spacer-4a6bd1e0 {
+{% if getComponentFieldValue("470a86f1-ea1b-4491-8d21-a3c8ca8aa8dd") is not empty %}     {% if getComponentFieldValue("470a86f1-ea1b-4491-8d21-a3c8ca8aa8dd") is not empty %} height: {{ getComponentFieldValue("470a86f1-ea1b-4491-8d21-a3c8ca8aa8dd") | raw }};{% endif %}{% endif %}
+  }
+}
+@media (max-width: 767px) {
+  .{{ coh_instance_class }}.coh-ce-cpt_spacer-4a6bd1e0 {
+{% if getComponentFieldValue("f0e200c8-bd2b-4864-819a-ab0da895ce9d") is not empty %}     {% if getComponentFieldValue("f0e200c8-bd2b-4864-819a-ab0da895ce9d") is not empty %} height: {{ getComponentFieldValue("f0e200c8-bd2b-4864-819a-ab0da895ce9d") | raw }};{% endif %}{% endif %}
+  }
+}{% endif %}
+</style>{% endset %}{{ renderInlineStyle(compiledCSS) | raw }}

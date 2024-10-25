@@ -1,0 +1,47 @@
+{% set coh_instance_class %}{{ coh_instanceid() }}{% endset %}{{ attach_library('cohesion/global_libraries.responsiveJs') }} {{ attach_library('cohesion/global_libraries.windowscroll') }} {{ attach_library('cohesion/element_templates.link') }} {{ attach_library('cohesion/global_libraries.matchHeight') }} {{ attach_library('cohesion/global_libraries.parallax_scrolling') }} {{ attach_library('cohesion/global_libraries.cohMatchHeights') }} {{ attach_library('cohesion/element_templates.link') }} {{ attach_library('cohesion/coh_element_container') }} <div class="coh-container ssa-component coh-component ssa-component-instance-{{componentUuid}} coh-component-instance-{{componentUuid}} {{ getComponentFieldValue("d20c8207-3420-4b03-b818-528799226183") | raw }} {{ getComponentFieldValue("46f26de0-0199-4139-888c-5f98e5dd8330") | raw }} {{ getComponentFieldValue("c7d68cc6-c123-41fb-87d0-d4a7130b25a8") | raw }} {{ getComponentFieldValue("b0084d37-3ff1-43af-898d-ba0f641a3df7") | raw }} {{ getComponentFieldValue("6b558b0a-9b2f-457a-8734-bad538aaea83") | raw }} {{ getComponentFieldValue("2596d4b9-bf4c-4924-810b-914f3432e40b") | raw }} {{ getComponentFieldValue("cbd93d07-b71a-4a73-893e-58f2c013cc17") | raw }} {{ getComponentFieldValue("ba8a1b58-8cb0-4b3a-a287-7778f71f0d93") | raw }} {{ getComponentFieldValue("4d039c91-9eb3-477b-84bd-ba7bfdb2afad") | raw }} {{ coh_instance_class }} coh-ce-cpt_social_links_card-fba07323" data-analytics="[null]" data-analytics-layer="[null]" > {% set inlineElementContent %}{{ getComponentFieldValue("7f9b5f2f-4228-4ebf-afbb-fae01948d27e") | raw }}{% endset %} <span class="coh-inline-element coh-ce-cpt_social_links_card-849e44df"> {{- inlineElementContent -}} </span> <ul class="coh-list-container coh-unordered-list coh-ce-cpt_social_links_card-33a132e2"> {% for coh_repeater_val in getComponentFieldValue('a2ba3a36-6dfe-47ff-8724-8eb458f1e8de') %} <li class="coh-list-item coh-style-social-icon coh-ce-cpt_social_links_card-5dada3cd{{ loop.index }} coh-ce-cpt_social_links_card-5dada3cd"> {{ attach_library('cohesion/coh_element_link') }} <a href="{% set href %}{{ getComponentFieldValue("ee6520c2-7f96-43d3-a29e-e18b25380a9e") | raw }}{% endset %}{{ escape_url(href) }}" class="coh-link {{ getComponentFieldValue("0c465892-f273-489a-b4a0-2c04acf37487") | raw }} coh-ce-cpt_social_links_card-bb596a78{{ loop.index }} coh-ce-cpt_social_links_card-bb596a78" target="_blank" aria-label="{{ getComponentFieldValue("7f9b5f2f-4228-4ebf-afbb-fae01948d27e") | raw }} {{ getComponentFieldValue("0c465892-f273-489a-b4a0-2c04acf37487") | raw }}" rel="noopener" > </a> </li> {% endfor %} </ul> </div> 
+{% set compiledCSS %}<style>.{{ coh_instance_class }}.coh-ce-cpt_social_links_card-fba07323 {
+{% if getComponentFieldValue("affa2413-96e8-44d6-9e44-befe63dcd93c") is not empty %}   {% if getComponentFieldValue("affa2413-96e8-44d6-9e44-befe63dcd93c") is not empty %} background-color: {{ getComponentFieldValue("affa2413-96e8-44d6-9e44-befe63dcd93c") | raw }};{% endif %}{% endif %}
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+{% if getComponentFieldValue("0b826b79-dc7d-4d2f-abd2-1d2ad92eb0f2") is not empty %}   {% if getComponentFieldValue("0b826b79-dc7d-4d2f-abd2-1d2ad92eb0f2") is not empty %} -webkit-box-flex: {{ getComponentFieldValue("0b826b79-dc7d-4d2f-abd2-1d2ad92eb0f2") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("0b826b79-dc7d-4d2f-abd2-1d2ad92eb0f2") is not empty %}   {% if getComponentFieldValue("0b826b79-dc7d-4d2f-abd2-1d2ad92eb0f2") is not empty %} -webkit-flex-grow: {{ getComponentFieldValue("0b826b79-dc7d-4d2f-abd2-1d2ad92eb0f2") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("0b826b79-dc7d-4d2f-abd2-1d2ad92eb0f2") is not empty %}       {% if getComponentFieldValue("0b826b79-dc7d-4d2f-abd2-1d2ad92eb0f2") is not empty %} -ms-flex-positive: {{ getComponentFieldValue("0b826b79-dc7d-4d2f-abd2-1d2ad92eb0f2") | raw }};{% endif %}{% endif %}
+{% if getComponentFieldValue("0b826b79-dc7d-4d2f-abd2-1d2ad92eb0f2") is not empty %}           {% if getComponentFieldValue("0b826b79-dc7d-4d2f-abd2-1d2ad92eb0f2") is not empty %} flex-grow: {{ getComponentFieldValue("0b826b79-dc7d-4d2f-abd2-1d2ad92eb0f2") | raw }};{% endif %}{% endif %}
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.border.{{ coh_instance_class }}.coh-ce-cpt_social_links_card-fba07323 {
+  border-width: 0.0625rem;
+  border-style: solid;
+{% if getComponentFieldValue("aa40e60f-a883-44b2-a8a0-692c4a454756") is not empty %}   {% if getComponentFieldValue("aa40e60f-a883-44b2-a8a0-692c4a454756") is not empty %} border-color: {{ getComponentFieldValue("aa40e60f-a883-44b2-a8a0-692c4a454756") | raw }};{% endif %}{% endif %}
+}
+.color-icons.{{ coh_instance_class }}.coh-ce-cpt_social_links_card-fba07323 a {
+  background-color: rgb(38, 163, 221);
+}
+.color-icons.{{ coh_instance_class }}.coh-ce-cpt_social_links_card-fba07323 a:hover {
+  background-color: rgb(112, 195, 233);
+}
+.dark-icons.{{ coh_instance_class }}.coh-ce-cpt_social_links_card-fba07323 a {
+  background-color: rgb(0, 0, 0);
+}
+.dark-icons.{{ coh_instance_class }}.coh-ce-cpt_social_links_card-fba07323 a:hover {
+  background-color: rgb(72, 72, 72);
+}
+.light-icons.{{ coh_instance_class }}.coh-ce-cpt_social_links_card-fba07323 a {
+  background-color: rgb(242, 242, 242);
+}
+.light-icons.{{ coh_instance_class }}.coh-ce-cpt_social_links_card-fba07323 a:before {
+  color: rgb(38, 163, 221);
+}
+.light-icons.{{ coh_instance_class }}.coh-ce-cpt_social_links_card-fba07323 a:hover {
+  background-color: rgb(219, 219, 220);
+}
+.light-icons.{{ coh_instance_class }}.coh-ce-cpt_social_links_card-fba07323 a:hover:before {
+  color: rgb(38, 163, 221);
+}
+</style>{% endset %}{{ renderInlineStyle(compiledCSS) | raw }}
